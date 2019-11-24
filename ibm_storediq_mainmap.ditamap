@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>IBM_StoredIQ_MainMap</title>
+    <topicref href="secondmap.ditamap" format="ditamap"></topicref>
+    <topicref href="Topics/Concept/cover_page.dita"></topicref>
+    <topicref href="Topics/Concept/about_this_publication.dita"></topicref>
+</map>

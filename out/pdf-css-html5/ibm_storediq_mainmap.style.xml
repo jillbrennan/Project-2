@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<css:root xmlns:chfox="http://www.oxygenxml.com/chemistry/extensions/fop"
+    xmlns:css="http://www.w3.org/1998/CSS" xmlns:ditaarch="ditaarch" xmlns:nd="nd">
+    <css:pages>
+        <css:page>
+            <css:footnote>
+                <css:property name="border-top-style" value="solid"/>
+                <css:property name="border-top-color" value="black"/>
+                <css:property name="border-top-width" value="thin"/>
+                <css:property name="padding-top" value="8pt"/>
+            </css:footnote>
+        </css:page>
+        <css:page>
+            <css:property name="padding-top" value="0.2em"/>
+            <css:property name="padding-bottom" value="0.2em"/>
+            <css:property name="width" value="8.5in"/>
+            <css:property name="height" value="11.0in"/>
+            <css:property name="margin-top" value="1in"/>
+            <css:property name="margin-right" value="1in"/>
+            <css:property name="margin-left" value="1in"/>
+            <css:property name="margin-bottom" value="1in"/>
+        </css:page>
+        <css:page>
+            <css:property name="font-size" value="8pt"/>
+        </css:page>
+        <css:page pseudo="left ">
+            <css:top-left>
+                <css:property name="content">
+                    <css:string name="maptitle" position="first"/>
+                    <css:string name="parttitle" position="first"/>
+                    <css:string name="chaptertitle" position="first"/>
+                    <css:string name="sectiontitle" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="decimal" name="page"/>
+                </css:property>
+            </css:top-left>
+        </css:page>
+        <css:page pseudo="right ">
+            <css:top-right>
+                <css:property name="content">
+                    <css:string name="maptitle" position="first"/>
+                    <css:string name="parttitle" position="first"/>
+                    <css:string name="chaptertitle" position="first"/>
+                    <css:string name="sectiontitle" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="decimal" name="page"/>
+                </css:property>
+            </css:top-right>
+        </css:page>
+        <css:page pseudo="blank ">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+        </css:page>
+        <css:page name="front-page">
+            <css:top-left-corner>
+                <css:property name="content"/>
+            </css:top-left-corner>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:top-right-corner>
+                <css:property name="content"/>
+            </css:top-right-corner>
+            <css:bottom-left-corner>
+                <css:property name="content"/>
+            </css:bottom-left-corner>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content"/>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+            <css:bottom-right-corner>
+                <css:property name="content"/>
+            </css:bottom-right-corner>
+        </css:page>
+        <css:page name="table-of-contents">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content"/>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+        </css:page>
+        <css:page name="index">
+            <css:top-left-corner>
+                <css:property name="content"/>
+            </css:top-left-corner>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:top-right-corner>
+                <css:property name="content"/>
+            </css:top-right-corner>
+            <css:bottom-left-corner>
+                <css:property name="content"/>
+            </css:bottom-left-corner>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content">
+                    <css:counter format="lower-alpha" name="page"/>
+                </css:property>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+            <css:bottom-right-corner>
+                <css:property name="content"/>
+            </css:bottom-right-corner>
+        </css:page>
+        <css:page name="index">
+            <css:property name="column-count" value="2"/>
+            <css:property name="column-fill" value="auto"/>
+        </css:page>
+        <css:page name="chapter"/>
+        <css:page name="matter-page">
+            <css:top-left-corner>
+                <css:property name="content"/>
+            </css:top-left-corner>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:top-right-corner>
+                <css:property name="content"/>
+            </css:top-right-corner>
+            <css:bottom-left-corner>
+                <css:property name="content"/>
+            </css:bottom-left-corner>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content"/>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+            <css:bottom-right-corner>
+                <css:property name="content"/>
+            </css:bottom-right-corner>
+        </css:page>
+        <css:page name="portrait-page">
+            <css:property name="orientation" value="portrait"/>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="left ">
+            <css:top-left>
+                <css:property name="content">
+                    <css:string name="toc-header" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="lower-roman" name="page"/>
+                </css:property>
+            </css:top-left>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="right ">
+            <css:top-right>
+                <css:property name="content">
+                    <css:string name="toc-header" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="lower-roman" name="page"/>
+                </css:property>
+            </css:top-right>
+        </css:page>
+        <css:page name="landscape-page" pseudo="right ">
+            <css:property name="orientation" value="landscape"/>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:right-bottom>
+                <css:property name="content">
+                    <css:reference-orientation-container-pmb reference-orientation="270">
+                        <css:string name="maptitle" position="first"/>
+                        <css:string name="parttitle" position="first"/>
+                        <css:string name="chaptertitle" position="first"/>
+                        <css:string name="sectiontitle" position="first"/>
+                        <css:text> | </css:text>
+                        <css:counter format="decimal" name="page"/>
+                    </css:reference-orientation-container-pmb>
+                </css:property>
+                <css:property name="vertical-align" value="middle"/>
+                <css:property name="text-align" value="right"/>
+            </css:right-bottom>
+        </css:page>
+        <css:page name="landscape-page" pseudo="left ">
+            <css:property name="orientation" value="landscape"/>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:right-top>
+                <css:property name="content">
+                    <css:reference-orientation-container-pmb reference-orientation="270">
+                        <css:string name="maptitle" position="first"/>
+                        <css:string name="parttitle" position="first"/>
+                        <css:string name="chaptertitle" position="first"/>
+                        <css:string name="sectiontitle" position="first"/>
+                        <css:text> | </css:text>
+                        <css:counter format="decimal" name="page"/>
+                    </css:reference-orientation-container-pmb>
+                </css:property>
+                <css:property name="vertical-align" value="middle"/>
+                <css:property name="text-align" value="left"/>
+            </css:right-top>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="first left ">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="first right ">
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+        </css:page>
+        <css:page name="chapter" pseudo="first left ">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+        </css:page>
+        <css:page name="chapter" pseudo="first right ">
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+        </css:page>
+    </css:pages>
+    <css:page-sequence initial-page-number="1" page="front-page">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px"
+            xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap">
+            <head css:border-bottom-color="white" css:border-bottom-style="solid"
+                css:border-bottom-width="1pt" css:border-left-color="white"
+                css:border-left-style="solid" css:border-left-width="1pt"
+                css:border-right-color="white" css:border-right-style="solid"
+                css:border-right-width="1pt" css:border-top-color="white"
+                css:border-top-style="solid" css:border-top-width="1pt" css:display="none"
+                css:padding-bottom="1em" css:padding-left="1em" css:padding-right="1em"
+                css:padding-top="1em">
+                <meta charset="UTF-8" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px"/>
+                <meta content="(C) Copyright 2019" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="copyright"/>
+                <meta content="(C) Copyright 2019" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px"
+                    name="DC.rights.owner"/>
+                <meta content="map" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.type"/>
+                <meta content="HTML5" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.format"/>
+                <meta content="en" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.language"/>
+                <link css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller"
+                    css:link="file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css"
+                    css:margin-bottom="1px" css:margin-left="0" css:margin-right="0"
+                    css:margin-top="1px"
+                    href="file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css"
+                    rel="stylesheet" type="text/css"/>
+                <link css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller"
+                    css:link="file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/css/print/p-dita.css"
+                    css:margin-bottom="1px" css:margin-left="0" css:margin-right="0"
+                    css:margin-top="1px"
+                    href="file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/css/print/p-dita.css"
+                    rel="stylesheet" type="text/css"/>
+                <link css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller"
+                    css:link="file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css"
+                    css:margin-bottom="1px" css:margin-left="0" css:margin-right="0"
+                    css:margin-top="1px"
+                    href="file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css"
+                    rel="stylesheet" type="text/css"/>
+                <title css:border-bottom-color="rgb(0 , 68 , 119)" css:border-bottom-style="solid"
+                    css:border-bottom-width="2px" css:color="rgb(0 , 34 , 68)" css:display="none"
+                    css:font-size="2.2em" css:font-weight="bold" css:margin-bottom="0.5em"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">
+                    <css:oxy-pdf-meta-title>
+                        <css:content source="text"/>
+                    </css:oxy-pdf-meta-title>
+                </title>
+            </head>
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+                                lang="en" xml:lang="en">
+                                <css:string-set name="toc-header">
+                                    <css:text>Contents</css:text>
+                                </css:string-set>
+                                <div class="- front-page/front-page front-page" css:display="block">
+                                    <div class="- front-page/front-page-title front-page-title"
+                                        css:display="block"
+                                        css:font-family="Arial, helvetica, sans-serif"
+                                        css:font-size="2em" css:font-weight="bold"
+                                        css:margin-top="3in" css:text-align="center">
+                                        <div class="- topic/title title" css:bookmark-level="1"
+                                            css:display="block" css:page-break-after="avoid"
+                                                ><css:string-set name="maptitle"><css:content
+                                                  source="text"
+                                                  /></css:string-set><css:bookmark-label><css:content
+                                                  source="before"/><css:content source="text"
+                                                /></css:bookmark-label><css:oxy-pdf-meta-title><css:content
+                                                  source="text"
+                                            /></css:oxy-pdf-meta-title>IBM_StoredIQ_MainMap</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence page="table-of-contents">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px"
+            xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+                                lang="en" xml:lang="en">
+                                <div class="- toc/toc toc" css:display="block">
+                                    <div class="- toc/title title" css:bookmark-level="1"
+                                        css:display="block" css:font-size="2em"
+                                        css:margin-bottom="1em" empty="true">
+                                        <css:before css:display="inline">
+                                            <css:text>Contents</css:text>
+                                        </css:before>
+                                        <css:bookmark-label>
+                                            <css:content source="before"/>
+                                        </css:bookmark-label>
+                                    </div>
+                                    <div class="- topic/title title" css:display="none"
+                                        css:page-break-after="avoid">IBM_StoredIQ_MainMap</div>
+                                    <div class="- map/topicref topicref" css:display="block"
+                                        css:font-weight="bold" css:margin-bottom="0.5em"
+                                        css:margin-left="0" css:margin-top="0.5em" href="#unique_1"
+                                        is-chapter="true" type="concept">
+                                        <div class="- map/topicmeta topicmeta"
+                                            css:border-bottom-color="transparent"
+                                            css:border-bottom-style="none"
+                                            css:border-left-color="transparent"
+                                            css:border-left-style="none"
+                                            css:border-right-color="transparent"
+                                            css:border-right-style="none"
+                                            css:border-top-color="transparent"
+                                            css:border-top-style="none" css:display="block"
+                                            css:margin-bottom="0" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0"
+                                            css:padding-bottom="0" css:padding-left="0"
+                                            css:padding-right="0" css:padding-top="0"
+                                            data-topic-id="cover_page">
+                                            <css:before css:display="inline"/>
+                                            <div appid="cover_page"
+                                                class="- topic/resourceid resourceid"
+                                                css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle"
+                                                css:display="block" css:link="#unique_1"
+                                                css:text-align-last="justify" href="#unique_1"
+                                                  ><css:before css:display="inline"
+                                                  css:link="#unique_1"><css:text>Chapter
+                                                  </css:text><css:counter name="toc-chapter"
+                                                  value="1"/><css:text>.
+                                                </css:text></css:before>Cover Page<css:after
+                                                  css:display="inline" css:link="#unique_1"
+                                                  ><css:leader pattern="."/><css:target-counter
+                                                  url-fragment="unique_1"/></css:after></div>
+                                            <div class="- map/shortdesc shortdesc"
+                                                css:display="none"/>
+                                        </div>
+                                    </div>
+                                    <div class="- map/topicref topicref" css:display="block"
+                                        css:font-weight="bold" css:margin-bottom="0.5em"
+                                        css:margin-left="0" css:margin-top="0.5em" href="#unique_2"
+                                        is-chapter="true" type="concept">
+                                        <div class="- map/topicmeta topicmeta"
+                                            css:border-bottom-color="transparent"
+                                            css:border-bottom-style="none"
+                                            css:border-left-color="transparent"
+                                            css:border-left-style="none"
+                                            css:border-right-color="transparent"
+                                            css:border-right-style="none"
+                                            css:border-top-color="transparent"
+                                            css:border-top-style="none" css:display="block"
+                                            css:margin-bottom="0" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0"
+                                            css:padding-bottom="0" css:padding-left="0"
+                                            css:padding-right="0" css:padding-top="0"
+                                            data-topic-id="about_this_publication">
+                                            <css:before css:display="inline"/>
+                                            <div appid="about_this_publication"
+                                                class="- topic/resourceid resourceid"
+                                                css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle"
+                                                css:display="block" css:link="#unique_2"
+                                                css:text-align-last="justify" href="#unique_2"
+                                                  ><css:before css:display="inline"
+                                                  css:link="#unique_2"><css:text>Chapter
+                                                  </css:text><css:counter name="toc-chapter"
+                                                  value="2"/><css:text>.
+                                                </css:text></css:before>About this
+                                                  publication<css:after css:display="inline"
+                                                  css:link="#unique_2"><css:leader pattern="."
+                                                  /><css:target-counter url-fragment="unique_2"
+                                                  /></css:after></div>
+                                            <div class="- map/shortdesc shortdesc"
+                                                css:display="none"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations"
+        initial-page-number="1" page="chapter">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px"
+            xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+                                lang="en" xml:lang="en">
+                                <article aria-labelledby="ariaid-title1" break-before="true"
+                                    class="- topic/topic concept/concept topic concept nested0"
+                                    css:counter-reset="page 1" css:display="block"
+                                    css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_1"
+                                    is-chapter="true" nd:nd-id="cover_page" oid="cover_page"
+                                    topicrefclass="- map/topicref ">
+                                    <h1 class="- topic/title title topictitle1"
+                                        css:bookmark-level="1" css:display="block"
+                                        css:font-size="2em" css:margin-bottom="1em"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0"
+                                        css:oxy-pdf-tag-type="H1" css:page-break-after="avoid"
+                                        id="ariaid-title1"><css:string-set name="chaptertitle"
+                                                ><css:text> | </css:text><css:counter name="chapter"
+                                                value="1"/><css:text> - </css:text><css:content
+                                                source="text"
+                                                /></css:string-set><css:bookmark-label><css:content
+                                                source="before"/><css:content source="text"
+                                            /></css:bookmark-label><css:before css:display="inline"
+                                                ><css:text>Chapter </css:text><css:counter
+                                                name="chapter" value="1"/><css:text>.
+                                            </css:text></css:before>Cover Page</h1>
+                                    <div class="- topic/body concept/conbody body conbody"
+                                        css:display="block" css:margin-bottom="0"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/shortdesc shortdesc" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0.5em"/>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0.5em"/>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" page="chapter">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px"
+            xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+                                lang="en" xml:lang="en">
+                                <article aria-labelledby="ariaid-title2" break-before="true"
+                                    class="- topic/topic concept/concept topic concept nested0"
+                                    css:display="block" css:margin-top="1em"
+                                    css:oxy-pdf-tag-type="Sect" id="unique_2" is-chapter="true"
+                                    nd:nd-id="about_this_publication" oid="about_this_publication"
+                                    topicrefclass="- map/topicref ">
+                                    <h1 class="- topic/title title topictitle1"
+                                        css:bookmark-level="1" css:display="block"
+                                        css:font-size="2em" css:margin-bottom="1em"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0"
+                                        css:oxy-pdf-tag-type="H1" css:page-break-after="avoid"
+                                        id="ariaid-title2"><css:string-set name="chaptertitle"
+                                                ><css:text> | </css:text><css:counter name="chapter"
+                                                value="2"/><css:text> - </css:text><css:content
+                                                source="text"
+                                                /></css:string-set><css:bookmark-label><css:content
+                                                source="before"/><css:content source="text"
+                                            /></css:bookmark-label><css:before css:display="inline"
+                                                ><css:text>Chapter </css:text><css:counter
+                                                name="chapter" value="2"/><css:text>.
+                                            </css:text></css:before>About this publication</h1>
+                                    <div class="- topic/body concept/conbody body conbody"
+                                        css:display="block" css:margin-bottom="0"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/shortdesc shortdesc" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0.5em"/>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0.5em">IBM StoredIQ
+                                            Deployment and Configuration Guide provides information
+                                            about how to plan, deploy, and configure the IBM
+                                            StoredIQ product.</p>
+                                        <section class="- topic/section section" css:display="block"
+                                            css:margin-bottom="1em" css:margin-top="1em"
+                                            css:oxy-pdf-tag-type="Sect">
+                                            <h2 class="- topic/title title sectiontitle"
+                                                css:bookmark-level="2" css:display="block"
+                                                css:font-size="1.17em" css:font-weight="bold"
+                                                css:margin-bottom="0" css:margin-left="0"
+                                                css:margin-right="0" css:margin-top="1em"
+                                                css:oxy-pdf-tag-type="H2"
+                                                css:page-break-after="avoid"
+                                                  ><css:bookmark-label><css:content source="text"
+                                                  /></css:bookmark-label>IBM StoredIQ product
+                                                library</h2>
+                                            <div class="- topic/p p" css:display="block"> The
+                                                following documents are available in the IBM®
+                                                StoredIQ® product library. <ul class="- topic/ul ul"
+                                                  css:display="block" css:list-style-type="disc"
+                                                  css:margin-bottom="1.33em" css:margin-top="1.33em">
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-left="2em"><em
+                                                  class="+ topic/ph hi-d/i ph i"
+                                                  css:display="inline" css:font-style="italic">IBM
+                                                  StoredIQ Overview Guide</em></li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-left="2em"><em
+                                                  class="+ topic/ph hi-d/i ph i"
+                                                  css:display="inline" css:font-style="italic">IBM
+                                                  StoredIQ Deployment and Configuration
+                                                  Guide</em></li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-left="2em"><em
+                                                  class="+ topic/ph hi-d/i ph i"
+                                                  css:display="inline" css:font-style="italic">IBM
+                                                  StoredIQ Data Server Administration
+                                                  Guide</em></li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-left="2em"><em
+                                                  class="+ topic/ph hi-d/i ph i"
+                                                  css:display="inline" css:font-style="italic">IBM
+                                                  StoredIQ Administrator Administration
+                                                  Guide</em></li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-left="2em"><em
+                                                  class="+ topic/ph hi-d/i ph i"
+                                                  css:display="inline" css:font-style="italic">IBM
+                                                  StoredIQ Data Workbench User Guide</em></li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-left="2em"><em
+                                                  class="+ topic/ph hi-d/i ph i"
+                                                  css:display="inline" css:font-style="italic">IBM
+                                                  StoredIQ Policy Manager User Guide</em></li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-left="2em"><em
+                                                  class="+ topic/ph hi-d/i ph i"
+                                                  css:display="inline" css:font-style="italic">IBM
+                                                  StoredIQ Insights User Guide</em></li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-left="2em"><em
+                                                  class="+ topic/ph hi-d/i ph i"
+                                                  css:display="inline" css:font-style="italic">IBM
+                                                  StoredIQ Integration Guide</em></li>
+                                                </ul>
+                                            </div>
+                                        </section>
+                                        <section class="- topic/section section" css:display="block"
+                                            css:margin-bottom="1em" css:margin-top="1em"
+                                            css:oxy-pdf-tag-type="Sect">
+                                            <h2 class="- topic/title title sectiontitle"
+                                                css:bookmark-level="2" css:display="block"
+                                                css:font-size="1.17em" css:font-weight="bold"
+                                                css:margin-bottom="0" css:margin-left="0"
+                                                css:margin-right="0" css:margin-top="1em"
+                                                css:oxy-pdf-tag-type="H2"
+                                                css:page-break-after="avoid"
+                                                  ><css:bookmark-label><css:content source="text"
+                                                  /></css:bookmark-label>Contacting IBM StoredIQ
+                                                customer support</h2>
+                                            <p class="- topic/p p" css:display="block"
+                                                css:margin-bottom="0.5em" css:margin-left="0"
+                                                css:margin-right="0" css:margin-top="0.5em">For IBM
+                                                StoredIQ technical support or to learn about
+                                                available service options, contact IBM StoredIQ
+                                                customer support at this phone number:</p>
+                                            <ul class="- topic/ul ul" css:display="block"
+                                                css:list-style-type="disc"
+                                                css:margin-bottom="1.33em" css:margin-top="1.33em">
+                                                <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-left="2em">1-866-227-2068</li>
+                                            </ul>
+                                            <p class="- topic/p p" css:display="block"
+                                                css:margin-bottom="0.5em" css:margin-left="0"
+                                                css:margin-right="0" css:margin-top="0.5em">Or, see
+                                                the Contact IBM web site at <a
+                                                  class="- topic/xref xref" css:color="blue"
+                                                  css:display="inline"
+                                                  css:link="http://www.ibm.com/contact/us"
+                                                  css:text-decoration="underline" format="html"
+                                                  href="http://www.ibm.com/contact/us"
+                                                  scope="external" target="_blank"
+                                                  >http://www.ibm.com/contact/us<css:after
+                                                  css:display="inline" css:font-style="italic"
+                                                  css:link="http://www.ibm.com/contact/us"
+                                                  css:text-decoration="underline"/></a></p>
+                                        </section>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+</css:root>

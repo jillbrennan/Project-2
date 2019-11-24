@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="urls">
+    <title>URLs</title>
+    <shortdesc></shortdesc>
+    <conbody>
+    
+        <p>
+           
+            <text id="Contact">http://www.ibm.com/contact/us</text>
+            <xref id="Contact1" href="http://www.ibm.com/contact/us" format="html" scope="external" ></xref>
+        </p>
+    </conbody>
+</concept>
