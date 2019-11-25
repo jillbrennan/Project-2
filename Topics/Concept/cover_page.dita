@@ -4,6 +4,6 @@
     <title>Cover Page</title>
     <shortdesc></shortdesc>
     <conbody>
-        <p></p>
+        <p>I added empty paragraphs in some sections to force the following section to begin on a new page</p>
     </conbody>
 </concept>

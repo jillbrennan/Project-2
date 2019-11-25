@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="images">
+    <title>Images</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>
+            <image id="administrator" href="../../Resources/Images/IBM_StoredIQ_Administrator.jpg"></image>
+            <image id="dataserver" href="../../Resources/Images/IBM_StoredIQ_Data_Server.jpg"></image>
+            <image id="dataworkbench" href="../../Resources/Images/IBM_StoredIQ_Data_Workbench.jpg"></image>
+            <image id="insights" href="../../Resources/Images/IBM_StoredIQ_Insights.jpg"></image>
+            <image id="policymanager" href="../../Resources/Images/IBM_StoredIQ_Policy_Manager.jpg"></image>
+        </p>
+    </conbody>
+</concept>
