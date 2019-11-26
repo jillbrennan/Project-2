@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="default_open_ports">
+    <title>Default open ports</title>
+    <shortdesc>The following ports are open by default on the IBM StoredIQ.</shortdesc>
+    <refbody> 
+        <section>
+            <title>SSH port 22</title>
+            <p>
+                By default, port 22 is open on all IBM StoredIQ hosts. The port is used for Secure Shell (SSH)
+                communication and allows remote administration access to the VM. In general, traffic is encrypted using
+                password authentication. To add a layer of security, you can establish key-based authentication for
+                passwordless SSH logins to any of the IBM StoredIQ nodes in your environment as described in
+                “Configuring SSH key-based authentication” on page 45.  
+            </p>   
+        </section>
+        
+        <section>
+            <title>Default open ports on the AppStack</title>
+            <table>
+                <tgroup cols="2">
+                    <thead>
+                        <row>
+                            <entry colsep="1">Port number</entry>
+                            <entry>Protocol</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row rowsep="1">
+                            <entry colsep="1">22</entry>
+                            <entry>
+                                <text conkeyref="data/proto1"></text>
+                            </entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">80</entry>
+                            <entry>
+                                <text conkeyref="data/proto1"></text>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry colsep="1">443</entry>
+                            <entry>
+                                <text conkeyref="data/proto1"></text>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p></p>
+        </section>    
+        
+        
+        <section>
+            <title>Default open ports on the IBM StoredIQ data server</title>
+            <table>
+                <tgroup cols="3">
+                    <colspec colname="Col1"/>
+                    <colspec colname="Col2"/>
+                    <colspec colname="Col3"/>
+                    <thead>
+                        <row>
+                            <entry colsep="1">Port number</entry>
+                            <entry colsep="1">Protocol</entry>
+                            <entry>Service</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row rowsep="1">
+                            <entry colsep="1">22</entry>
+                            <entry colsep="1">
+                                <text conkeyref="data/proto1"></text>
+                            </entry>
+                            <entry>PROD-ssh</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">80</entry>
+                            <entry colsep="1">
+                                <text conkeyref="data/proto1"></text>
+                            </entry>
+                            <entry>PROD-web</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">443</entry>
+                            <entry colsep="1"> 
+                                <text conkeyref="data/proto1"></text>
+                            </entry>
+                            <entry>PROD-https (UI and Web Services APIs)</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">11103</entry>
+                            <entry colsep="1" morerows="1">
+                                <text conkeyref="data/proto1" ></text>
+                            </entry>
+                            <entry morerows="1">PROD-transport (IBM StoredIQ
+                                transport services;
+                                communication between the
+                                gateway and the data server)</entry>
+                        </row>
+                        <row>
+                            <entry colsep="1">11104</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        
+        <section>
+            <title>Enable or disable ports or services on the IBM StoredIQ data server</title>
+            <p>To manage ports, you can use the /usr/local/storediq/bin/util/port_handler.pyc script with
+                the appropriate parameter: 
+                
+                <codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -parameter</codeblock>
+               
+            </p>
+        </section>
+        <section>
+            <title>-s</title>
+            <p>To list the current rules in iptables</p>    
+        </section>
+        <section>
+            <title>-l</title>
+            <p>To list the supported services</p>
+        </section>
+        <section>
+            <title>-d <i>port_number|'port_range'</i></title>
+            <p>To delete a port or a range of port numbers from iptables, for example:
+                <codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -d '21200:21299'</codeblock>
+            </p>
+            <p></p>
+            
+        </section>
+        
+        <section>
+            <title>-e <i>'service_name'</i></title>
+            <p>To enable a specific service, for example, to enable HTTPS services:
+                <codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -e 'PROD-https'</codeblock>
+            </p>
+        </section>
+        
+        <section>
+            <title>-d <i>'service_name'</i></title>
+            <p>To disable a specific service, for example, to disable HTTPS services:
+                <codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -d 'PROD-https'</codeblock>
+            </p>
+        </section>
+        
+        <section>
+            <title>Default open ports on the nodes in the Elasticsearch cluster</title>
+            <table>
+                <tgroup cols="3">
+                    <thead>
+                        <row rowsep="1">
+                            <entry colsep="1">Port Number</entry>
+                            <entry colsep="1">Protocol</entry>
+                            <entry>Service</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row rowsep="1">
+                            <entry colsep="1">21</entry>
+                            <entry colsep="1">
+                                <text conkeyref="data/proto1"></text>
+                            </entry>
+                            <entry>ftp</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">22</entry>
+                            <entry colsep="1">
+                                <text conkeyref="data/proto1"></text>
+                            </entry>
+                            <entry>sshd</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">80</entry>
+                            <entry colsep="1">
+                                <text conkeyref="data/proto1"></text>
+                            </entry>
+                            <entry></entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">443</entry>
+                            <entry colsep="1">
+                                <text conkeyref="data/proto1"></text>
+                            </entry>
+                            <entry></entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">8888</entry>
+                            <entry colsep="1">
+                                <text conkeyref="data/proto1"></text>
+                            </entry>
+                            <entry>SimpleHTTPServer (used for
+                                copying the siq-elasticsearch.
+                                yml
+                                configuration file from the
+                                Elasticsearch node to the data
+                                server)</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">9200</entry>
+                            <entry colsep="1">tcp6</entry>
+                            <entry>docker-proxy (listening for REST
+                                requests)
+                                You can restrict access to this
+                                port by either enabling Search
+                                Guard or by setting up a firewall.
+                                For more information, see
+                                “Securing Elasticsearch cluster
+                                communication with Search
+                                Guard” on page 51 or
+                                “Restricting access to port 9200
+                                on Elasticsearch nodes” on page
+                                52.</entry>
+                        </row>
+                        <row>
+                            <entry colsep="1">9300</entry>
+                            <entry colsep="1">tcp6</entry>
+                            <entry>docker-proxy (internode communication)</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+                   
+        </section>
+        
+        <section>
+            <title>Default open ports on the IBM StoredIQ gateway</title>
+            <table>
+                <tgroup cols="3">
+                    <thead>
+                        <row rowsep="1">
+                            <entry colsep="1">Port number</entry>
+                            <entry colsep="1">Protocol</entry>
+                            <entry>Service</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row rowsep="1">
+                            <entry colsep="1">22</entry>
+                            <entry colsep="1">
+                                <text conkeyref="data/proto1"></text>
+                            </entry>
+                            <entry>PROD-ssh</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">80</entry>
+                            <entry colsep="1">
+                                <text conkeyref="data/proto1"></text>
+                            </entry>
+                            <entry>PROD-web</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">443</entry>
+                            <entry colsep="1">
+                                <text conkeyref="data/proto1"></text>
+                            </entry>
+                            <entry>PROD-https (UI and Web
+                                Services APIs)</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">5432</entry>
+                            <entry colsep="1">
+                                <text conkeyref="data/proto1"></text>
+                            </entry>
+                            <entry>PROD-postgres</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">5434</entry>
+                            <entry morerows="5" colsep="1" >
+                                <text conkeyref="data/proto1"></text>
+                            </entry>
+                            <entry morerows="5">PROD-transport (IBM StoredIQ
+                                transport services;
+                                communication between the
+                                gateway and the data server)</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">8765</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">7766</entry>      
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">11102</entry> 
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">11103</entry>
+                        </row>
+                        <row rowsep="1">
+                            <entry colsep="1">11104</entry>
+                        </row>
+                      
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        
+        <section>
+            <title>Supported chain and rules on the IBM StoredIQ gateway</title>
+            <p>In iptables, the following firewall and chain rules are defined:
+                <codeblock>'PROD-transport':['5434','8765','7766','11102','11103','11104'],
+                            'PROD-https':['443'],
+                            'PROD-ssh':['22'],
+                            'PROD-web':['80'],
+                            'PROD-postgres':[’5432’]</codeblock>
+            </p> 
+            
+            <p>
+                <codeblock>
+                'desktop' service:
+                'PROD-broker':['21000'],
+                'PROD-collectionsvc':['21300:21399']
+                'PROD-desktopupgrade':['21004'],
+                'PROD-objlistmgr':['21100:21199'],
+                'PROD-objlistsvc':['21200:21299'],
+                'PROD-rgistration':['21001'],
+                'PROD-session':['21002'],
+                'PROD-task':['21003'],
+                </codeblock>
+            </p>
+        </section>
+                
+    </refbody>
+</reference>

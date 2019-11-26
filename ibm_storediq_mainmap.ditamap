@@ -9,7 +9,7 @@
         <i>Deployment and Configuration Guide</i>
     </title>
 
-    <topicref href="secondmap.ditamap" format="ditamap"></topicref>
+    <topicref href="secondmap.ditamap" format="ditamap"/>
     <topicref href="Topics/Concept/cover_page.dita"></topicref>
     
     <topicref href="Topics/Concept/about_this_publication.dita">
@@ -25,8 +25,15 @@
     </topicref>
     
     <topicref href="Topics/Task/planning_for_deployment.dita">
-        <topicref
-            href="Topics/Reference/open_virtual_appliance__ova__configuration_requirements.dita"/>
+        <topicref href="Topics/Reference/open_virtual_appliance__ova__configuration_requirements.dita">
+            <topicref toc="no" href="Topics/Concept/DataServer_Classic.dita"></topicref>
+            <topicref toc="no" href="Topics/Reference/dataserver_distributed_elasticsearch.dita"/>
+        </topicref>
+        <topicref href="Topics/Reference/network_and_port_requirements.dita">
+            <topicref toc="no" href="Topics/Reference/default_open_ports.dita">
+                <topicref toc="no" href="Topics/Task/open_ports_for_desktop_client_access_to_the_data_server.dita"/>
+            </topicref>
+        </topicref>
     </topicref>
     
     

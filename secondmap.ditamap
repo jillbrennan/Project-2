@@ -4,4 +4,5 @@
     <title>SecondMap</title>
     <keydef keys="URL" href="Common/urls.dita"></keydef>
     <keydef keys="images" href="Resources/Images/images.dita"></keydef>
+    <keydef keys="data" href="Common/data_to_use.dita"></keydef>   
 </map>
