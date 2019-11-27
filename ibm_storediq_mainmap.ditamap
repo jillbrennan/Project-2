@@ -34,6 +34,14 @@
                 <topicref toc="no" href="Topics/Task/open_ports_for_desktop_client_access_to_the_data_server.dita"/>
             </topicref>
         </topicref>
+        <topicref href="Topics/Concept/environment_sizing_guidelines.dita">
+            <topicref toc="no" href="Topics/Reference/vmware_requirements.dita"/>
+        </topicref>
+        <topicref href="Topics/Task/stack_provisioning_prerequisites.dita"/>
+        <topicref href="Topics/Concept/license_usage_metrics.dita"/>
+        <topicref href="Topics/Concept/security.dita">
+            <topicref toc="no" href="Topics/Reference/default_user_accounts.dita"/>
+        </topicref>
     </topicref>
     
     

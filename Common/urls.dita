@@ -11,6 +11,8 @@
             <xref id="ProdCompStored7.6" href="https://www.ibm.com/software/reports/compatibility/clarity-reports/report/html/softwareReqsForProduct?deliverableId=CC1291B0F4AF11E3ACBD4447721DA353" format="html" scope="external">Software Product Compatibility Reports: StoredIQ 7.6</xref>
             <xref id="ProdCompLegal2.0.3" href="https://www.ibm.com/software/reports/compatibility/clarity-reports/report/html/softwareReqsForProduct?deliverableId=8A0331A0C50D11E58D9C0D684F363D68" format="html" scope="external">Software Product Compatibility Reports: StoredIQ for Legal 2.0.3</xref>       
             <xref id="ProdCompReports_Index" href="https://www.ibm.com/software/reports/compatibility/clarity/index.html" format="html" scope="external">Software Product Compatibility Reports</xref>
+            <xref id="VMware" href="https://www.vmware.com/support/pubs/" format="html" scope="external">the VMware product documentation</xref>
+            <xref id="License" href="https://www.ibm.com/support/knowledgecenter/SS8JFY_9.2.0/com.ibm.lmt.doc/welcome/LMT_welcome.html" format="html" scope="external">IBM License Metric Tool documentation</xref>
         </p>
      </conbody>
 </concept>
