@@ -22,12 +22,12 @@
                 communication and to enable encryption of data in motion between the browser and the AppStack. You
                 can to this during installation and initial configuration or at any time afterward. For details, see the
                 instructions for configuring certificates.</p>
-            <p>The gateway handles the communication between the data servers and the application stack. By default,
-                the communication between the gateway, any data servers, and the AppStack is in plain text and is not
+            <p><ph id="gateway">The gateway handles the communication between the data servers and the application stack. 
+                By default, the communication between the gateway, any data servers, and the AppStack is in plain text and is not
                 encrypted. If your enterprise security policy mandates encryption of data in motion, enable secure
                 gateway communication. In this case, secure gateway communication must be configured on all three
                 IBM StoredIQ components. You can enable secure gateway communication during installation and initial
-                configuration or at any time afterward. For details, see “Managing the status of secure gateway
+                configuration or at any time afterward.</ph> For details, see “Managing the status of secure gateway
                 communication” on page 54.</p>
             <p>IBM StoredIQ then uses stunnel to ensure secure communication between the components. If your
                 environment includes data servers of the type DataServer - Distributed, stunnel can also be used to

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\jillk\OneDrive\Documents\Degrees and Study\CIT IDD Course\XML Module\Assignments\Assignment 2\Workspace\Publication\IBM_StoredIQ\temp\webhelp-responsive\Topics\Reference?><?workdir-uri file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/temp/webhelp-responsive/Topics/Reference/?><?path2project ..\..\?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Reference//EN?><?doctype-system reference.dtd?><reference xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="default_user_accounts" ditaarch:DITAArchVersion="1.3" domains="(topic reference) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic       reference/reference " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="reference:1;3:39">
+    <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="title:1;4:12">Default user accounts</title>
+    <refbody class="- topic/body        reference/refbody " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="refbody:1;5:14">
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="section:1;6:18">
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="p:1;7:16">IBM StoredIQ comes with a set of default user accounts.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="p:2;8:16">For security reasons, change the passwords for these default accounts after the installation is complete
+                so that they are unique and different from the default values. The new password must be 8 to 64
+                characters long and must contain characters from at least three of these categories:
+                    <ul class="- topic/ul " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="ul:1;11:25">
+                        <li class="- topic/li " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="li:1;12:29">Uppercase letters: A - Z</li>
+                        <li class="- topic/li " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="li:2;13:29">Lowercase letters: a - z</li>
+                        <li class="- topic/li " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="li:3;14:29">Digits: 0 - 9</li>
+                        <li class="- topic/li " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="li:4;15:29">Punctuation marks or special characters: . : = * ˆ / $ # _ + @ &amp; % -</li>
+                    </ul>
+                
+            </p>
+        </section>
+        <table class="- topic/table " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="table:1;20:16">
+            <tgroup cols="3" class="- topic/tgroup " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="tgroup:1;21:30">
+                <thead class="- topic/thead " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="thead:1;22:24">
+                    <row class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="row:1;23:26">
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:1;24:43">Acccount</entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:2;25:43">Default password</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:3;26:32">Description</entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="tbody:1;29:24">
+                    <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="row:2;30:37">
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:4;31:43">admin</entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:5;32:43">admin</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:6;33:32">Administrative account for accessing
+                            IBM StoredIQ Data Server. Use this
+                            account for the initial setup of the data
+                            server and to create further
+                            administrative accounts for routine
+                            administration.
+                            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="p:3;39:32">Change the password in IBM StoredIQ
+                            Data Server under <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="b:1;40:50">Administration &gt;
+                            Configuration &gt; Manage users.</b></p></entry>
+                    </row>
+                    <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="row:3;43:37">
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:7;44:43">audituser</entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:8;45:43">Passw0rd!</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:9;46:32">Account for accessing the audit
+                            database on the AppStack.
+                            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="p:4;48:32">Change the password by running the
+                            <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="b:2;49:32">change_audituser_password</b> script as
+                            siqadmin user on the AppStack.</p></entry>
+                    </row>
+                    <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="row:4;52:37">
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:10;53:43">builder</entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:11;54:43">None. Password is set during initial
+                            configuration.</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:12;56:32">Account for setting up and configuring
+                            the Elasticsearch cluster.
+                            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="p:5;58:32">You can change the password by using
+                            the Linux <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="b:3;59:42">passwd</b> command.</p></entry>
+                    </row>
+                    <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="row:5;61:37">
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:13;62:43">reportuser</entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:14;63:43">St0red1q</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:15;64:32">Account for accessing the report
+                            database on the AppStack.
+                            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="p:6;66:32">Change the password by running the
+                            <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="b:4;67:32">change_reportuser_password</b> script as
+                            siqadmin user on the AppStack.</p></entry>
+                    </row>
+                    <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="row:6;70:37">
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:16;71:43">siqadmin</entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:17;72:43">Passw0rd!</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:18;73:32">Administrative account for managing the
+                            AppStack server. For more information,
+                            see the administration guide.
+                            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="p:7;76:32">With new installations, you are
+                            prompted for a new password during the
+                            initial configuration of the AppStack. In
+                            updated deployments, change the
+                            password by using the Linux <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="b:5;80:60">passwd</b>
+                            command.</p></entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="row:7;83:26">
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:19;84:43">superadmin</entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:20;85:43">admin</entry>
+                        <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="entry:21;86:32">Administrative account for accessing
+                            IBM StoredIQ Administrator and IBM
+                            StoredIQ Data Server. Use this account
+                            for the initial setup of IBM StoredIQ and
+                            to create further administrative
+                            accounts for routine administration so
+                            that their actions can be audited.
+                            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="p:8;93:32">Change the password in IBM StoredIQ
+                            Administrator: go to <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="b:6;94:53">Users</b> and edit the
+                            superadmin account.</p>
+                            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_user_accounts.dita" xtrc="p:9;96:32">The superadmin account has access to
+                            all IBM StoredIQ applications on the
+                            application stack. To switch
+                            applications, click the triangle arrow
+                            icon and select the application that you
+                            want to access from the list of the
+                            available applications.</p></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        
+    </refbody>
+</reference>

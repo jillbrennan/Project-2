@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
+<glossentry id="Application_Stack">
+    <glossterm>Application stack</glossterm>
+    <glossdef><p conref="../Concept/solution_components.dita#solution_components/stack"></p></glossdef>
+</glossentry>

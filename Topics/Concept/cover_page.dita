@@ -5,5 +5,7 @@
     <shortdesc></shortdesc>
     <conbody>
         <p>I added empty paragraphs in some sections to force the following section to begin on a new page</p>
+        <p>For the glossary, I initially tried to use the third option that we had learned, but it didn't work for a pdf transformation. 
+            It looked fine in a web transformation, just not in pdf. Option 1 worked for pdf, so I opted to use that one.  </p>
     </conbody>
 </concept>

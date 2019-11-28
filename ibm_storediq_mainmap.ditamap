@@ -9,7 +9,7 @@
         <i>Deployment and Configuration Guide</i>
     </title>
 
-    <topicref href="secondmap.ditamap" format="ditamap"/>
+    <mapref href="secondmap.ditamap" format="ditamap"/>
     <topicref href="Topics/Concept/cover_page.dita"></topicref>
     
     <topicref href="Topics/Concept/about_this_publication.dita">
@@ -43,6 +43,42 @@
             <topicref toc="no" href="Topics/Reference/default_user_accounts.dita"/>
         </topicref>
     </topicref>
+    <topicref href="Topics/Concept/deploying_ibm_storediq.dita">
+        <topicref href="Topics/Task/deploying_the_virtual_appliances.dita"/>
+        <topicref href="Topics/Task/deploying_ibm_storediq_on_microsoft_hyper_v.dita"/>
+    </topicref>
+    
+    
+    <topichead navtitle="Glossary">
+        <topichead navtitle="A">
+            <topicref href="Topics/Glossary/application_stack.dita"></topicref>
+            <topicref href="Topics/Glossary/auto_classification.dita"></topicref>
+        </topichead>   
+        
+        <topichead navtitle="C">
+            <topicref href="Topics/Glossary/cartridges.dita"></topicref>
+            <topicref href="Topics/Glossary/connector_api_sdk.dita"></topicref>            
+        </topichead>
+        
+        <topichead navtitle="D">
+            <topicref href="Topics/Glossary/data_server_classic.dita"></topicref>
+            <topicref href="Topics/Glossary/data_server_distributed.dita" ></topicref>
+            <topicref href="Topics/Glossary/data_servers.dita"></topicref>
+        </topichead>
+        
+        <topichead navtitle="G">
+            <topicref href="Topics/Glossary/gateway.dita"></topicref>
+        </topichead>
+        
+        <topichead navtitle="I">
+            <topicref href="Topics/Glossary/ibm_storediq_insights.dita"></topicref>
+        </topichead>
+        
+    </topichead>
+ 
+     
+   
+   
     
     
 </map>

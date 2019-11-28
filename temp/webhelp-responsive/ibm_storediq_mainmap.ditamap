@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\jillk\OneDrive\Documents\Degrees and Study\CIT IDD Course\XML Module\Assignments\Assignment 2\Workspace\Publication\IBM_StoredIQ\temp\webhelp-responsive?><?workdir-uri file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/temp/webhelp-responsive/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Map//EN?><?doctype-system map.dtd?><map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- map/map " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="map:1;3:6" cascade="merge">
+    <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="title:1;4:12">IBM StoredIQ
+        
+        
+        
+        
+        <i class="+ topic/ph hi-d/i " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="i:1;9:12">Deployment and Configuration Guide</i>
+    </title>
+
+    <topicref href="secondmap.ditamap" format="ditamap" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:1;12:58"/>
+    <topicref href="Topics/Concept/cover_page.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:2;13:53"/>
+    
+    <topicref href="Topics/Concept/about_this_publication.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:3;15:65">
+        <topicref href="Topics/Concept/ibm_storediq_product_library.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:4;16:75"/>
+        <topicref href="Topics/Concept/contacting_ibm_storediq_customer_support.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:5;17:87">
+            <topicref toc="no" href="Topics/Task/contacting_ibm.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:6;18:71"/>
+        </topicref>   
+    </topicref>
+    
+    <topicref href="Topics/Reference/ibm_storediq_components.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:7;22:68">
+        <topicref href="Topics/Concept/solution_components.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:8;23:66"/>
+        <topicref href="Topics/Concept/applications_of_ibm_storediq.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:9;24:75"/>
+    </topicref>
+    
+    <topicref href="Topics/Task/planning_for_deployment.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:10;27:63">
+        <topicref href="Topics/Reference/open_virtual_appliance__ova__configuration_requirements.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:11;28:104">
+            <topicref toc="no" href="Topics/Concept/DataServer_Classic.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:12;29:78"/>
+            <topicref toc="no" href="Topics/Reference/dataserver_distributed_elasticsearch.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:13;30:99"/>
+        </topicref>
+        <topicref href="Topics/Reference/network_and_port_requirements.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:14;32:78">
+            <topicref toc="no" href="Topics/Reference/default_open_ports.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:15;33:80">
+                <topicref toc="no" href="Topics/Task/open_ports_for_desktop_client_access_to_the_data_server.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:16;34:117"/>
+            </topicref>
+        </topicref>
+        <topicref href="Topics/Concept/environment_sizing_guidelines.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:17;37:76">
+            <topicref toc="no" href="Topics/Reference/vmware_requirements.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:18;38:82"/>
+        </topicref>
+        <topicref href="Topics/Task/stack_provisioning_prerequisites.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:19;40:77"/>
+        <topicref href="Topics/Concept/license_usage_metrics.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:20;41:69"/>
+        <topicref href="Topics/Concept/security.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:21;42:55">
+            <topicref toc="no" href="Topics/Reference/default_user_accounts.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:22;43:84"/>
+        </topicref>
+    </topicref>
+    <topicref href="Topics/Concept/deploying_ibm_storediq.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:23;46:65">
+        <topicref href="Topics/Task/deploying_the_virtual_appliances.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:24;47:77"/>
+        <topicref href="Topics/Task/deploying_ibm_storediq_on_microsoft_hyper_v.dita" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:25;48:88"/>
+    </topicref>
+    <topichead navtitle="Glossary" class="+ map/topicref mapgroup-d/topichead " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topichead:1;50:36">
+        <topichead navtitle="A" class="+ map/topicref mapgroup-d/topichead " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topichead:2;51:33">
+            <topicref href="Topics/Glossary/glossary.dita#Application_Stack" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:26;52:78"/>
+            <topicref href="Topics/Glossary/glossary.dita#Auto-classification" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:27;53:80"/>
+        </topichead>   
+     
+        <topichead navtitle="C" class="+ map/topicref mapgroup-d/topichead " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topichead:3;56:33">
+            <topicref href="Topics/Glossary/glossary.dita#Cartridges" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:28;57:71"/>
+            <topicref href="Topics/Glossary/glossary.dita#ConnectorAPI_SDK" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:29;58:77"/>            
+        </topichead>
+     
+        <topichead navtitle="D" class="+ map/topicref mapgroup-d/topichead " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topichead:4;61:33">
+            <topicref href="Topics/Glossary/glossary.dita#DataServerClassic" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:30;62:78"/>
+            <topicref href="Topics/Glossary/glossary.dita#DataServerDistributed" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:31;63:82"/>
+            <topicref href="Topics/Glossary/glossary.dita#Data_Servers" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:32;64:73"/>
+        </topichead>
+        
+        <topichead navtitle="G" class="+ map/topicref mapgroup-d/topichead " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topichead:5;67:33">
+            <topicref href="Topics/Glossary/glossary.dita#Gateway" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:33;68:68"/>
+        </topichead>
+     
+        <topichead navtitle="I" class="+ map/topicref mapgroup-d/topichead " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topichead:6;71:33">
+            <topicref href="Topics/Glossary/glossary.dita#IBM_StoredIQ_Insights" class="- map/topicref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/ibm_storediq_mainmap.ditamap" xtrc="topicref:34;72:82"/>
+        </topichead>
+     
+    </topichead>
+     
+   
+   
+    
+    
+</map>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\jillk\OneDrive\Documents\Degrees and Study\CIT IDD Course\XML Module\Assignments\Assignment 2\Workspace\Publication\IBM_StoredIQ\temp\webhelp-responsive\Topics\Reference?><?workdir-uri file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/temp/webhelp-responsive/Topics/Reference/?><?path2project ..\..\?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Reference//EN?><?doctype-system reference.dtd?><reference xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="default_open_ports" ditaarch:DITAArchVersion="1.3" domains="(topic reference) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic       reference/reference " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="reference:1;3:36">
+    <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="title:1;4:12">Default open ports</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="shortdesc:1;5:16">The following ports are open by default on the IBM StoredIQ.</shortdesc>
+    <refbody class="- topic/body        reference/refbody " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="refbody:1;6:14"> 
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="section:1;7:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="title:2;8:20">SSH port 22</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="p:1;9:16">
+                By default, port 22 is open on all IBM StoredIQ hosts. The port is used for Secure Shell (SSH)
+                communication and allows remote administration access to the VM. In general, traffic is encrypted using
+                password authentication. To add a layer of security, you can establish key-based authentication for
+                passwordless SSH logins to any of the IBM StoredIQ nodes in your environment as described in
+                “Configuring SSH key-based authentication” on page 45.  
+            </p>   
+        </section>
+        
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="section:2;18:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="title:3;19:20">Default open ports on the AppStack</title>
+            <table class="- topic/table " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="table:1;20:20">
+                <tgroup cols="2" class="- topic/tgroup " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="tgroup:1;21:34">
+                    <thead class="- topic/thead " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="thead:1;22:28">
+                        <row class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:1;23:30">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:1;24:47">Port number</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:2;25:36">Protocol</entry>
+                        </row>
+                    </thead>
+                    <tbody class="- topic/tbody " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="tbody:1;28:28">
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:2;29:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:3;30:47">22</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:4;31:36">
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:1;32:63"/>
+                            </entry>
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:3;35:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:5;36:47">80</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:6;37:36">
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:2;38:63"/>
+                            </entry>
+                        </row>
+                        <row class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:4;41:30">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:7;42:47">443</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:8;43:36">
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:3;44:63"/>
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="p:2;50:16"/>
+        </section>    
+        
+        
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="section:3;54:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="title:4;55:20">Default open ports on the IBM StoredIQ data server</title>
+            <table class="- topic/table " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="table:2;56:20">
+                <tgroup cols="3" class="- topic/tgroup " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="tgroup:2;57:34">
+                    <colspec colname="Col1" class="- topic/colspec " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="colspec:1;58:46"/>
+                    <colspec colname="Col2" class="- topic/colspec " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="colspec:2;59:46"/>
+                    <colspec colname="Col3" class="- topic/colspec " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="colspec:3;60:46"/>
+                    <thead class="- topic/thead " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="thead:2;61:28">
+                        <row class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:5;62:30">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:9;63:47">Port number</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:10;64:47">Protocol</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:11;65:36">Service</entry>
+                        </row>
+                    </thead>
+                    <tbody class="- topic/tbody " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="tbody:2;68:28">
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:6;69:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:12;70:47">22</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:13;71:47">
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:4;72:63"/>
+                            </entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:14;74:36">PROD-ssh</entry>
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:7;76:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:15;77:47">80</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:16;78:47">
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:5;79:63"/>
+                            </entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:17;81:36">PROD-web</entry>
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:8;83:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:18;84:47">443</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:19;85:47"> 
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:6;86:63"/>
+                            </entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:20;88:36">PROD-https (UI and Web Services APIs)</entry>
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:9;90:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:21;91:47">11103</entry>
+                            <entry colsep="1" morerows="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:22;92:60">
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:7;93:64"/>
+                            </entry>
+                            <entry morerows="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:23;95:49">PROD-transport (IBM StoredIQ
+                                transport services;
+                                communication between the
+                                gateway and the data server)</entry>
+                        </row>
+                        <row class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:10;100:30">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:24;101:47">11104</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="section:4;108:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="title:5;109:20">Enable or disable ports or services on the IBM StoredIQ data server</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="p:3;110:16">To manage ports, you can use the /usr/local/storediq/bin/util/port_handler.pyc script with
+                the appropriate parameter: 
+                
+                <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="codeblock:1;113:28">python /usr/local/storediq/bin/util/port_handler.pyc -parameter</codeblock>
+               
+            </p>
+        </section>
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="section:5;117:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="title:6;118:20">-s</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="p:4;119:16">To list the current rules in iptables</p>    
+        </section>
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="section:6;121:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="title:7;122:20">-l</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="p:5;123:16">To list the supported services</p>
+        </section>
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="section:7;125:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="title:8;126:20">-d <i class="+ topic/ph hi-d/i " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="i:1;126:26">port_number|'port_range'</i></title>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="p:6;127:16">To delete a port or a range of port numbers from iptables, for example:
+                <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="codeblock:2;128:28">python /usr/local/storediq/bin/util/port_handler.pyc -d '21200:21299'</codeblock>
+            </p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="p:7;130:16"/>
+            
+        </section>
+        
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="section:8;134:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="title:9;135:20">-e <i class="+ topic/ph hi-d/i " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="i:2;135:26">'service_name'</i></title>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="p:8;136:16">To enable a specific service, for example, to enable HTTPS services:
+                <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="codeblock:3;137:28">python /usr/local/storediq/bin/util/port_handler.pyc -e 'PROD-https'</codeblock>
+            </p>
+        </section>
+        
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="section:9;141:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="title:10;142:20">-d <i class="+ topic/ph hi-d/i " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="i:3;142:26">'service_name'</i></title>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="p:9;143:16">To disable a specific service, for example, to disable HTTPS services:
+                <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="codeblock:4;144:28">python /usr/local/storediq/bin/util/port_handler.pyc -d 'PROD-https'</codeblock>
+            </p>
+        </section>
+        
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="section:10;148:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="title:11;149:20">Default open ports on the nodes in the Elasticsearch cluster</title>
+            <table class="- topic/table " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="table:3;150:20">
+                <tgroup cols="3" class="- topic/tgroup " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="tgroup:3;151:34">
+                    <thead class="- topic/thead " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="thead:3;152:28">
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:11;153:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:25;154:47">Port Number</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:26;155:47">Protocol</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:27;156:36">Service</entry>
+                        </row>
+                    </thead>
+                    <tbody class="- topic/tbody " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="tbody:3;159:28">
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:12;160:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:28;161:47">21</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:29;162:47">
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:8;163:63"/>
+                            </entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:30;165:36">ftp</entry>
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:13;167:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:31;168:47">22</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:32;169:47">
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:9;170:63"/>
+                            </entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:33;172:36">sshd</entry>
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:14;174:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:34;175:47">80</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:35;176:47">
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:10;177:63"/>
+                            </entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:36;179:36"/>
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:15;181:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:37;182:47">443</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:38;183:47">
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:11;184:63"/>
+                            </entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:39;186:36"/>
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:16;188:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:40;189:47">8888</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:41;190:47">
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:12;191:63"/>
+                            </entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:42;193:36">SimpleHTTPServer (used for
+                                copying the siq-elasticsearch.
+                                yml
+                                configuration file from the
+                                Elasticsearch node to the data
+                                server)</entry>
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:17;200:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:43;201:47">9200</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:44;202:47">tcp6</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:45;203:36">docker-proxy (listening for REST
+                                requests)
+                                You can restrict access to this
+                                port by either enabling Search
+                                Guard or by setting up a firewall.
+                                For more information, see
+                                “Securing Elasticsearch cluster
+                                communication with Search
+                                Guard” on page 51 or
+                                “Restricting access to port 9200
+                                on Elasticsearch nodes” on page
+                                52.</entry>
+                        </row>
+                        <row class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:18;216:30">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:46;217:47">9300</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:47;218:47">tcp6</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:48;219:36">docker-proxy (internode communication)</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+                   
+        </section>
+        
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="section:11;227:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="title:12;228:20">Default open ports on the IBM StoredIQ gateway</title>
+            <table class="- topic/table " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="table:4;229:20">
+                <tgroup cols="3" class="- topic/tgroup " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="tgroup:4;230:34">
+                    <thead class="- topic/thead " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="thead:4;231:28">
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:19;232:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:49;233:47">Port number</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:50;234:47">Protocol</entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:51;235:36">Service</entry>
+                        </row>
+                    </thead>
+                    <tbody class="- topic/tbody " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="tbody:4;238:28">
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:20;239:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:52;240:47">22</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:53;241:47">
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:13;242:63"/>
+                            </entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:54;244:36">PROD-ssh</entry>
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:21;246:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:55;247:47">80</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:56;248:47">
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:14;249:63"/>
+                            </entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:57;251:36">PROD-web</entry>
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:22;253:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:58;254:47">443</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:59;255:47">
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:15;256:63"/>
+                            </entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:60;258:36">PROD-https (UI and Web
+                                Services APIs)</entry>
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:23;261:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:61;262:47">5432</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:62;263:47">
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:16;264:63"/>
+                            </entry>
+                            <entry class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:63;266:36">PROD-postgres</entry>
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:24;268:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:64;269:47">5434</entry>
+                            <entry morerows="5" colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:65;270:61">
+                                <text conkeyref="data/proto1" class="- topic/text " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="text:17;271:63"/>
+                            </entry>
+                            <entry morerows="5" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:66;273:49">PROD-transport (IBM StoredIQ
+                                transport services;
+                                communication between the
+                                gateway and the data server)</entry>
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:25;278:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:67;279:47">8765</entry>
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:26;281:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:68;282:47">7766</entry>      
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:27;284:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:69;285:47">11102</entry> 
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:28;287:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:70;288:47">11103</entry>
+                        </row>
+                        <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="row:29;290:41">
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="entry:71;291:47">11104</entry>
+                        </row>
+                      
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="section:12;299:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="title:13;300:20">Supported chain and rules on the IBM StoredIQ gateway</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="p:10;301:16">In iptables, the following firewall and chain rules are defined:
+                <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="codeblock:5;302:28"> 
+'PROD-transport':['5434','8765','7766','11102','11103','11104'],
+            'PROD-https':['443'],
+            'PROD-ssh':['22'],
+            'PROD-web':['80'],
+            'PROD-postgres':[’5432’]</codeblock>
+
+                <codeblock xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Reference/default_open_ports.dita" xtrc="codeblock:6;309:28"> 
+'desktop' service:
+            'PROD-broker':['21000'],
+            'PROD-collectionsvc':['21300:21399']
+            'PROD-desktopupgrade':['21004'],
+            'PROD-objlistmgr':['21100:21199'],
+            'PROD-objlistsvc':['21200:21299'],
+            'PROD-rgistration':['21001'],
+            'PROD-session':['21002'],
+            'PROD-task':['21003'], </codeblock>
+            </p>
+        </section>
+                
+    </refbody>
+</reference>

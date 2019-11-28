@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\jillk\OneDrive\Documents\Degrees and Study\CIT IDD Course\XML Module\Assignments\Assignment 2\Workspace\Publication\IBM_StoredIQ\temp\webhelp-responsive\Topics\Concept?><?workdir-uri file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/temp/webhelp-responsive/Topics/Concept/?><?path2project ..\..\?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="security" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="concept:1;3:24">
+    <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="title:1;4:12">Security</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="shortdesc:1;5:16">Plan and implement specific security measures to protect the application and the data it manages,
+        especially when you deploy IBM StoredIQ into sensitive environments.
+        IBM StoredIQ keeps your data secure through encryption, security hardening, and auditing.</shortdesc>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="conbody:1;8:14">
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="section:1;9:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="title:2;10:20">Federal Information Processing Standard (FIPS)</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="p:1;11:16">FIPS is a standard recommended by the National Institute of Standards and Technology (NIST) and the
+                US Federal Government. It ensures certain security standards are met for software or hardware
+                components deployed at US government sites. Enabling FIPS ensures that the SSL/TLS engine that is
+                compliant with the US Government recommendation is used. IBM StoredIQ supports FIPS Level 1.</p>
+             <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="p:2;15:17">Secure gateway communication can be enabled without FIPS. If FIPS is enabled, IBM StoredIQ uses FIPS
+                compliant versions of OpenSSL.</p>
+        </section>
+        
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="section:2;19:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="title:3;20:20">Secure communication and encryption of data in motion</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="p:3;21:16">In a production environment, you should configure or install certificates on the AppStack to enable HTTPS
+                communication and to enable encryption of data in motion between the browser and the AppStack. You
+                can to this during installation and initial configuration or at any time afterward. For details, see the
+                instructions for configuring certificates.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="p:4;25:16"><ph id="gateway" class="- topic/ph " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="ph:1;25:33">The gateway handles the communication between the data servers and the application stack. 
+                By default, the communication between the gateway, any data servers, and the AppStack is in plain text and is not
+                encrypted. If your enterprise security policy mandates encryption of data in motion, enable secure
+                gateway communication. In this case, secure gateway communication must be configured on all three
+                IBM StoredIQ components. You can enable secure gateway communication during installation and initial
+                configuration or at any time afterward.</ph> For details, see “Managing the status of secure gateway
+                communication” on page 54.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="p:5;32:16">IBM StoredIQ then uses stunnel to ensure secure communication between the components. If your
+                environment includes data servers of the type DataServer - Distributed, stunnel can also be used to
+                encrypt the communication between the nodes within the Elasticsearch cluster but not for encrypting the
+                communication between the data server and the Elasticsearch cluster.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="p:6;36:16">To secure the communication between the data server and the Elasticsearch cluster and the
+                communication within the Elasticsearch cluster likewise, you can enable Search Guard. For more
+                information, see “Securing Elasticsearch cluster communication with Search Guard” on page 51. If you
+                don't want to do that but still want to restrict client access to port 9200 on the Elasticsearch nodes, you
+                can set up the firewall accordingly. For more information, see “Restricting access to port 9200 on
+                Elasticsearch nodes” on page 52.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="p:7;42:16">If FIPS is not enabled, the following cipher suites and encryption algorithm are used for data at rest:
+                <lines xml:space="preserve" class="- topic/lines " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="lines:1;43:24">LS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256</lines>
+                <lines xml:space="preserve" class="- topic/lines " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="lines:2;44:24">TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</lines>  
+            </p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="p:8;46:16">You can configure these cipher suites in the configuration files listed in the list of key and certificate files.
+                However, if you run the utilities for enabling stunnel, you might need to make the respective configuration
+                changes again.</p>
+        </section>
+        
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="section:3;51:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="title:4;52:20">Encryption of data at rest</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="p:9;53:16">Starting with IBM StoredIQ version 7.6.0.15, the disk volume on which the Elasticsearch indexes are
+                stored is encrypted by default. IBM StoredIQ uses Linux Unified Key Setup (LUKS) for disk encryption. For
+                details about key management, see “Key and certificate management” on page 41.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="p:10;56:16">Optionally, you can encrypt the application data on the IBM StoredIQ application stack. For more
+                information, see “Enabling encryption of IBM StoredIQ AppStack application data” on page 50.</p>
+        </section>
+
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="section:4;60:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="title:5;61:20">Network isolation</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="p:11;62:16">If full-text harvesting and Step-up Analytics actions (cartridges) are applied, Elasticsearch indexes can
+                contain potentially sensitive content. Therefore, you should deploy the Elasticsearch nodes in an isolated
+                location on the network (for example, as an enclave or behind a firewall) that is properly secured
+                according to the sensitivity of the data being harvested. Only the IBM StoredIQ application stack and data
+                servers should be allowed to communicate with the Elasticsearch nodes.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="p:12;67:16">Also, any data servers and the gateway should be deployed in an isolated network location to allow for
+                communication with authorized clients only.</p>
+        </section>
+        
+        <section class="- topic/section " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="section:5;71:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="title:6;72:20">Access control</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="p:13;73:16">The following administrative accounts are required. The builder and siqadmin accounts are IBM
+                StoredIQ-specific accounts. For more information about these accounts, see <xref href="../Reference/default_user_accounts.dita#default_user_accounts" class="- topic/xref " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="xref:1;74:167">“Default user accounts” on page 17.</xref></p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="p:14;75:16"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="b:1;75:19">root and builder accounts on the Elasticsearch cluster nodes</b>
+                <sl class="- topic/sl " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="sl:1;76:21">
+                    <sli class="- topic/sli " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="sli:1;77:26">Remote login for root can be disabled. However, local root login is required, either log in as root or
+                        use the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="b:2;78:36">su</b> command to obtain root permissions temporarily.</sli>
+                    <sli class="- topic/sli " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="sli:2;79:26">You set the passwords for the root and builder accounts during the configuration process when
+                        you start the VM for the first time. You can change these passwords anytime.</sli>
+                </sl>
+            </p>
+            <p class="- topic/p " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="p:15;83:16"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="b:3;83:19">siqadmin account on the AppStack</b>
+                  <sl class="- topic/sl " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="sl:2;84:23">
+                      <sli class="- topic/sli " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="sli:3;85:28">Administration of the AppStack usually does not require direct root access. For day-to-day
+                          administration, the siqadmin account can be used.</sli>
+                      <sli class="- topic/sli " xtrf="file:/C:/Users/jillk/OneDrive/Documents/Degrees%20and%20Study/CIT%20IDD%20Course/XML%20Module/Assignments/Assignment%202/Workspace/Publication/IBM_StoredIQ/Topics/Concept/security.dita" xtrc="sli:4;87:28">You set the password for the siqadmin account during the configuration process when you start the
+                          VM for the first time. You can change this password anytime.</sli>
+                  </sl>
+                
+            </p>
+            
+        </section>
+        
+    </conbody>
+</concept>
