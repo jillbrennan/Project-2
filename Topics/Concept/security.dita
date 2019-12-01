@@ -5,6 +5,9 @@
     <shortdesc>Plan and implement specific security measures to protect the application and the data it manages,
         especially when you deploy IBM StoredIQ into sensitive environments.
         IBM StoredIQ keeps your data secure through encryption, security hardening, and auditing.</shortdesc>
+    <prolog>
+        <publisher>IBM</publisher>
+    </prolog>
     <conbody>
         <section>
             <title>Federal Information Processing Standard (FIPS)</title>

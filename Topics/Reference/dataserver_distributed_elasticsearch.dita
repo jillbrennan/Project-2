@@ -4,6 +4,9 @@
     <title></title>
     <shortdesc></shortdesc>
     <!-- This section contains the information on both DataServer - Distributed and Each Elasticsearch node -->
+    <prolog>
+        <author>Jillian Brennan</author>
+    </prolog>
     <refbody>
         <section>
             <title>DataServer - Distributed</title>

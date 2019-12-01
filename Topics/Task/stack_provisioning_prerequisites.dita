@@ -3,6 +3,13 @@
 <task id="stack_provisioning_prerequisites">
     <title>Stack-provisioning prerequisites</title>
     <shortdesc>Before a deployment, verify that you meet these prerequisites.</shortdesc>
+    <prolog>
+        <author>Jillian Brennan</author>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>IBM</copyrholder>
+        </copyright>
+    </prolog>
     <taskbody>
         <prereq>
             <ul>

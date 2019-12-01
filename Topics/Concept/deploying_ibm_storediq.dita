@@ -3,6 +3,9 @@
 <concept id="deploying_ibm_storediq">
     <title>Deploying IBM StoredIQ</title>
     <shortdesc>IBM StoredIQ is a virtual appliance that you deploy and configure in a VMWare virtual host environment.</shortdesc>
+    <prolog>
+        <author>Jillian Brennan</author>
+    </prolog>
     <conbody>
         <p></p>
     </conbody>

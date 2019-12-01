@@ -2,6 +2,12 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="default_user_accounts">
     <title>Default user accounts</title>
+    <prolog>
+        <critdates>
+            <created date="29/11/2019"/>
+            <revised modified="01/12/2019"/>
+        </critdates>
+    </prolog>
     <refbody>
         <section>
             <p>IBM StoredIQ comes with a set of default user accounts.</p>

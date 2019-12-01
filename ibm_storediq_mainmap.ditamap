@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
+    
+    
     <title>IBM StoredIQ
-        
+    
         
         
         
         <i>Deployment and Configuration Guide</i>
     </title>
+    <topicmeta>
+        <author>Jillian Brennan</author>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>IBM Corporation</copyrholder>
+        </copyright>
+        <prodinfo>
+            <prodname>IBM StoredIQ</prodname>
+            <vrmlist>
+                <vrm version="1"/>
+            </vrmlist>
+            <brand>IBM</brand>
+        </prodinfo>
+        
+    </topicmeta>
 
     <mapref href="secondmap.ditamap" format="ditamap"/>
+
     <topicref href="Topics/Concept/cover_page.dita"></topicref>
     
     <topicref href="Topics/Concept/about_this_publication.dita">
@@ -73,6 +91,8 @@
         <topichead navtitle="I">
             <topicref href="Topics/Glossary/ibm_storediq_insights.dita"></topicref>
         </topichead>
+        
+        <mapref href="index_map.ditamap" format="ditamap"></mapref>
         
     </topichead>
  

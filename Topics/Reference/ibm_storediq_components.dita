@@ -4,6 +4,17 @@
     <title>IBM StoredIQ components</title>
     <shortdesc>The IBM StoredIQ solution consists of these components: the application stack, the gateway, the data
         server, and optionally the Elasticsearch cluster.</shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>IBM</copyrholder>
+        </copyright>
+    </prolog>
+    <prolog>
+        <metadata>
+            <keywords conkeyref="indexkey/in1"></keywords>
+        </metadata>
+    </prolog>
     <refbody>
     
     </refbody>

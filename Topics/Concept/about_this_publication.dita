@@ -3,6 +3,12 @@
 <concept id="about_this_publication">
     <title>About this publication</title>
     <shortdesc></shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>© Copyright International Business Machines Corporation 2001, 2019.</copyrholder>
+        </copyright>
+    </prolog>
     <conbody>
         <p><i>IBM StoredIQ Deployment and Configuration Guide</i> provides information about how to plan, deploy, and
             configure the IBM StoredIQ product.</p>

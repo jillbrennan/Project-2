@@ -3,6 +3,9 @@
 <task id="open_ports_for_desktop_client_access_to_the_data_server">
     <title>Open ports for desktop client access to the data server</title>
     <shortdesc></shortdesc>
+    <prolog>
+        <author>Jillian Brennan</author>
+    </prolog>
     <taskbody>
         <context>
             <p>To open ports for desktop client access to the data server on OVA deployed systems, follow these steps:</p>

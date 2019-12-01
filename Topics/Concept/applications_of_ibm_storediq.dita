@@ -3,6 +3,12 @@
 <concept id="applications_of_ibm_storediq">
     <title>Applications of IBM StoredIQ</title>
     <shortdesc>IBM StoredIQ provides interface applications that help fulfill its solution goals.</shortdesc>
+    <prolog>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>IBM</copyrholder>
+        </copyright>
+    </prolog>
     <conbody>
         <section>
             <title>IBM StoredIQ Data Server</title>

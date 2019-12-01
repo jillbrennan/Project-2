@@ -5,6 +5,9 @@
     <shortdesc>Use VMware vSphere Client to deploy the virtual appliances to an ESX server. Deploy OVAs for the
         gateway, the data server, and the application stack, preferably in this order. If an Elasticsearch cluster is
         also being deployed, those OVAs must be deployed first.</shortdesc>
+    <prolog>
+        <author>Jillian Brennan</author>
+    </prolog>
     
     <taskbody>
         <prereq>

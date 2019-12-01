@@ -3,9 +3,25 @@
 <concept id="cover_page">
     <title>Cover Page</title>
     <shortdesc></shortdesc>
+    <prolog>
+        <critdates>
+            <created date="24/11/2019" audience="novice" expiry="01/07/2020" importance="high"/>
+        </critdates>
+       
+    </prolog>
     <conbody>
         <p>I added empty paragraphs in some sections to force the following section to begin on a new page</p>
         <p>For the glossary, I initially tried to use the third option that we had learned, but it didn't work for a pdf transformation. 
             It looked fine in a web transformation, just not in pdf. Option 1 worked for pdf, so I opted to use that one.  </p>
+        <p>This edition applies to Version 7.6.0.19 of product number 5724M86 and to all subsequent releases and modifications
+            until otherwise indicated in new editions.</p>
+        <p>I had been using the second pdf transformation, based on XSL-FO and it did a great job on displaying the tables correctly. However, for some unknown
+           reason on 1st December, that transformation stopped working. It gave some errors in the background build.xml file that I didn't know how to fix. 
+           I reverted back to the other pdf transformation - based on HTML5 and CSS, which works fine, but the tables no longer display properly I understand from comments in the
+           discussion thread on Canvas that this is a restriction of this particular transformation. 
+        </p>
+        <p><lines><b>© Copyright International Business Machines Corporation 2001, 2019.</b></lines>
+            <lines>US Government Users Restricted Rights – Use, duplication or disclosure restricted by GSA ADP Schedule Contract with
+            IBM Corp.</lines></p>
     </conbody>
 </concept>

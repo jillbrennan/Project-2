@@ -3,6 +3,11 @@
 <concept id="concept_pqt_2kx_vjb">
     <title></title>
     <shortdesc></shortdesc>
+    <prolog>
+        <metadata>
+            <keywords conkeyref="indexkey/in1"></keywords>
+        </metadata>
+    </prolog>
     <conbody>
         <section>
             <title>DataServer - Classic</title>

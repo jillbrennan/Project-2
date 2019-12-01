@@ -3,6 +3,9 @@
 <task id="planning_for_deployment1">
     <title>Planning for deployment</title>
     <shortdesc></shortdesc>
+    <prolog>
+        <author>Jillian Brennan</author>
+    </prolog>
     <taskbody>
         <context>
             <p>When you plan a deployment of IBM StoredIQ, evaluate several infrastructure considerations.</p>

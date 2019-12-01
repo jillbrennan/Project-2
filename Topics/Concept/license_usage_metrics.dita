@@ -3,6 +3,15 @@
 <concept id="license_usage_metrics">
     <title>License usage metrics</title>
     <shortdesc></shortdesc>
+    <prolog>
+        <critdates>
+            <created date="30/11/2019"/>
+            <revised modified="01/12/2019"/>
+        </critdates>
+        <metadata>
+            <keywords conkeyref="indexkey/in1"></keywords>
+        </metadata>
+    </prolog>
     <conbody>
         <p>Using the IBM License Metric Tool, you can generate license consumption reports that count IBM
             StoredIQ license usage.</p>

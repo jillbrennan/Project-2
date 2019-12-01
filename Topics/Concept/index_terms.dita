@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="index_terms">
+    <title>Index Terms</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <metadata>
+            <keywords id="in1">
+                <keyword></keyword>
+                <indexterm>gateway server</indexterm>
+                <indexterm>ports
+                    <indexterm>open ports</indexterm>
+                </indexterm>
+                <indexterm>DataServer - Classic</indexterm>
+                <indexterm>metadata</indexterm>
+                <indexterm>IBM StoredIQ</indexterm>
+                <indexterm>Microsoft Hyper-V</indexterm>
+                <indexterm>network</indexterm>
+                <indexterm>metric</indexterm>
+                <indexterm>OVA
+                    <index-see>Open Virtual Appliance</index-see>
+                </indexterm>
+                <indexterm>OVF</indexterm>
+                <indexterm>TLS</indexterm>
+                <indexterm>data disk
+                    <index-see>vmdisk2</index-see>
+                </indexterm>
+                <indexterm>harvest frequency
+                    <index-see>Scheduling harvests</index-see>
+                </indexterm>
+                <indexterm>deploy
+                    <indexterm>OVA</indexterm>
+                    <indexterm>OVF</indexterm>
+                </indexterm>
+                <indexterm>reports
+                    <indexterm>Detailed system requirements report</indexterm>
+                    <indexterm>Hardware requirements report</indexterm>
+                </indexterm>
+                <indexterm>tcp
+                    <indexterm>port ranges</indexterm>
+                </indexterm>
+                <indexterm>Desktop Agent</indexterm>
+                <indexterm>AppStack
+                    <index-see>application stack</index-see>
+                </indexterm>
+                <indexterm>key management</indexterm>
+                <indexterm>primary disk
+                    <index-see>vmdisk1</index-see>
+                </indexterm>          
+                <indexterm>technical support</indexterm>
+                <indexterm>solution components
+                    <indexterm>gateway</indexterm>
+                    <indexterm>data servers</indexterm>
+                    <indexterm>application stack</indexterm>
+                </indexterm>
+                
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p></p>
+    </conbody>
+</concept>

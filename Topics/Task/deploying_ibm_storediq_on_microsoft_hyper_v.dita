@@ -5,6 +5,15 @@
     <shortdesc>As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data server, and application
         stack can be installed on Microsoft Hyper-V. This option is not supported for the Elasticsearch virtual
         appliance.</shortdesc>
+    <prolog>
+        <author>Jillian Brennan</author>
+        <metadata>
+            <keywords>
+                <keyword>7-zip</keyword>
+                <keyword>Hyper-V</keyword>
+            </keywords>
+        </metadata>
+    </prolog>
     <taskbody>
         <prereq>
             <p>Installing IBM StoredIQ on Microsoft Hyper-V requires the use of third-party software. For the procedure

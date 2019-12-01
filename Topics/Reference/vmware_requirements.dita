@@ -3,6 +3,9 @@
 <reference id="vmware_requirements">
     <title></title>
     <shortdesc></shortdesc>
+    <prolog>
+        <author>Jillian Brennan</author>
+    </prolog>
     <refbody>
         <section>
             <title>VMware requirements</title>
