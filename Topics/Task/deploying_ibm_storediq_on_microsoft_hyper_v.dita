@@ -19,12 +19,12 @@
             <p>Installing IBM StoredIQ on Microsoft Hyper-V requires the use of third-party software. For the procedure
                 described here, the following software prerequisites must be met:
                 <ul>
-                    <li>Microsoft Hyper-V Manager must be installed on a Windows system.</li>
-                    <li>7-zip for Windows or tar for the Linux operating system must be available to extract contents of the
+                    <li platform="windows">Microsoft Hyper-V Manager must be installed on a Windows system.</li>
+                    <li platform="windows linux">7-zip for Windows or tar for the Linux operating system must be available to extract contents of the
                         OVA.</li>
-                    <li>7-zip for Windows or gunzip for the Linux operating system must be installed to decompress the
+                    <li platform="linux windows">7-zip for Windows or gunzip for the Linux operating system must be installed to decompress the
                         vmdk.gz file.</li>
-                    <li>Microsoft Virtual Machine Converter 3.0 (Windows) or qemu-img (Linux) or must be installed to convert
+                    <li platform="linux windows">Microsoft Virtual Machine Converter 3.0 (Windows) or qemu-img (Linux) or must be installed to convert
                         the files from VMWare .vmdk files to Hyper-V .vhdx files.</li>
                 </ul>
             </p>
@@ -43,10 +43,10 @@
                         <cmd>Download the OVA.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Extract the contents of the OVA by using 7-zip for Windows or tar for the Linux operating system.</cmd>
+                        <cmd platform="windows linux">Extract the contents of the OVA by using 7-zip for Windows or tar for the Linux operating system.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Decompress the vmdk.gz archive by using 7-zip for Windows or gunzip for Linux.</cmd>
+                        <cmd platform="linux windows">Decompress the vmdk.gz archive by using 7-zip for Windows or gunzip for Linux.</cmd>
                     </substep>
                     <substep>
                         <cmd>Delete everything except the vmdk file when the OVA extraction is complete.</cmd>

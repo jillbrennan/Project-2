@@ -10,18 +10,66 @@
        
     </prolog>
     <conbody>
-        <p>I added empty paragraphs in some sections to force the following section to begin on a new page</p>
-        <p>For the glossary, I initially tried to use the third option that we had learned, but it didn't work for a pdf transformation. 
-            It looked fine in a web transformation, just not in pdf. Option 1 worked for pdf, so I opted to use that one.  </p>
-        <p>This edition applies to Version 7.6.0.19 of product number 5724M86 and to all subsequent releases and modifications
-            until otherwise indicated in new editions.</p>
-        <p>I had been using the second pdf transformation, based on XSL-FO and it did a great job on displaying the tables correctly. However, for some unknown
-           reason on 1st December, that transformation stopped working. It gave some errors in the background build.xml file that I didn't know how to fix. 
-           I reverted back to the other pdf transformation - based on HTML5 and CSS, which works fine, but the tables no longer display properly I understand from comments in the
-           discussion thread on Canvas that this is a restriction of this particular transformation. 
+       
+        <section>
+            <title>Conditional Processing and Flagging</title>
+        <p>My examples of conditional processing and flagging are as follows:
+            <ol>
+            
+                <li><b>Solution components:</b> In solutions_components.dita, I set the audience of Gateway, Data Servers and Application Stack to either novice or 
+                    expert and then I set the properties to display the expert content in red italics. I then added four values for the product attribute
+                    and filtered based on excluding an audience of novice and including product of "other products". This had the effect of removing the 
+                    Elastic Search Cluster section, but the Gateway section remained visible,as it had an audience of either novice or expert     
+                </li>
+                <li><b>Planning for Deployment:</b> In planning_for_deployment.dita, I created various revision values on each of the sections. I added a filter
+                     to display information with a revision of 2.0 with a background colour of green and bold font, and to display information with a revision 
+                     of 1.1 with a font colour of orange.
+                </li>
+                <li><b>Deploying IBM StoredIQ on Microsoft Hyper-V:</b> In the following file, deploying_ibm_storediq_on_microsoft_hyper_v.dita, I created 
+                     platform attributes
+                     of Windows and Linux across various sections and then ran a query to exclude data with a platform attribute of Windows and to include
+                     data with a platform attribute of Linux. This resulted in removing the first bullet point under Deploying IBM StoredIQ on Microsoft Hyper-V. 
+                     Some of the other bullet points also had an attribute value of Windows, but these are displayed because it also has a value of Linux. 
+                     The result shows information on how to deploy IBM StoredIQ on a Linux platform. 
+                </li>
+                <li><b>Applications of IBM StoredIQ:</b> In the applications_of_ibm_storediq.dita file, I created an audience of Expert for the auto-classification 
+                     list item. The first dataval query that I ran at 1 above had the effect of changing the style of the text to red italics. 
+                </li>
+                <li><b>Applications of IBM StoredIQ:</b> I added values of Administrators and Users to the audience attribute. I added both attribute values 
+                    to content in the applications_of_ibm_storediq.dita file. I added filters to change some of the style, colours and background colours to 
+                    the relevant content of that file. 
+                </li>
+            </ol>            
         </p>
-        <p><lines><b>© Copyright International Business Machines Corporation 2001, 2019.</b></lines>
-            <lines>US Government Users Restricted Rights – Use, duplication or disclosure restricted by GSA ADP Schedule Contract with
-            IBM Corp.</lines></p>
+        </section>
+        
+        <section>
+            <title>Linking</title>
+            <p><b>URLs:</b> I created a dita file called urls.dita to store all URL information and then I used conkeyref to link to them.</p>
+            <p><b>Images:</b> Similar to URLs, I created a dita file for images, called images.dita and I used conkeyref to link to the images. </p>
+            <p><b>Text:</b> I created a dita file, called data_to_use.dita for some text that was being reused and again, I used conkeyref to reuse this text 
+                in a table. </p>
+            <p>I added all the above as keydef in a second map, so that they could be easily linked to from topics in the main map. </p>
+        </section>
+        
+        <section>
+            <title>Other techniques</title>
+            <p>I added empty paragraphs in some sections to force the next section to begin on a new page - for example, in contacting_ibm.dita</p>
+            <p>For the glossary, I initially tried to use the third option that we had learned, but it didn't work for a pdf transformation. 
+                It looked fine in a web transformation, just not in pdf. Option 1 worked for pdf, so I opted to use that one.  </p>
+            <p>I had been using the second pdf transformation, based on XSL-FO and it did a great job on displaying the tables correctly. However, for some unknown
+                reason on 1st December, that transformation stopped working. It gave some errors in the background build.xml file that I didn't know how to fix. 
+                I reverted back to the other pdf transformation - based on HTML5 and CSS, which works fine, but the tables no longer display properly I understand from comments in the
+                discussion thread on Canvas that this is a restriction of this particular transformation. Also, the lines underneath headings do not display with the first
+                pdf transformation. They were displaying perfectly with the XSL-FO transformation, but do not appear with the other one. 
+            </p>
+        </section>
+        
+        
+        <section>
+        <p>
+            <lines><b>© Copyright International Business Machines Corporation 2001, 2019.</b></lines>
+            <lines>US Government Users Restricted Rights – Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.</lines></p>
+        </section>
     </conbody>
 </concept>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?><val xmlns:dita-ot="http://dita-ot.sourceforge.net">
+    
+    <prop action="flag" att="audience" color="red" style="italics" val="expert"></prop>
+    <prop action="exclude" att="audience" val="novice"></prop>
+    <prop action="include" att="product" val="Other products"></prop>
+    
+    
+    <revprop action="flag" backcolor="green" style="bold" val="2.0"></revprop>
+    <revprop action="flag" color="orange" val="1.1"></revprop>
+    
+    
+    <prop action="exclude" att="platform" val="windows"></prop>
+    <prop action="include" att="platform" val="linux"></prop>
+    
+    
+    <prop action="flag" att="audience" color="pink" val="Administrator"></prop>
+    <prop action="flag" att="audience" backcolor="beige" style="bold" val="Users"></prop>
+    
+</val>

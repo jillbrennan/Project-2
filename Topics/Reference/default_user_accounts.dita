@@ -25,18 +25,21 @@
         </section>
         <table>
             <tgroup cols="3">
+                <colspec colwidth="50*"/>
+                <colspec colwidth="100*"/>
+                <colspec colwidth="100*"/>
                 <thead>
-                    <row>
-                        <entry colsep="1">Acccount</entry>
-                        <entry colsep="1">Default password</entry>
-                        <entry>Description</entry>
+                    <row rowsep="1">
+                        <entry colsep="1" align="left">Acccount</entry>
+                        <entry colsep="1" align="left">Default password</entry>
+                        <entry colsep="1" align="left">Description</entry>
                     </row>
                 </thead>
                 <tbody>
                     <row rowsep="1">
                         <entry colsep="1">admin</entry>
                         <entry colsep="1">admin</entry>
-                        <entry>Administrative account for accessing
+                        <entry colsep="1">Administrative account for accessing
                             IBM StoredIQ Data Server. Use this
                             account for the initial setup of the data
                             server and to create further
@@ -49,7 +52,7 @@
                     <row rowsep="1">
                         <entry colsep="1">audituser</entry>
                         <entry colsep="1">Passw0rd!</entry>
-                        <entry>Account for accessing the audit
+                        <entry colsep="1">Account for accessing the audit
                             database on the AppStack.
                             <p>Change the password by running the
                             <b>change_audituser_password</b> script as
@@ -59,7 +62,7 @@
                         <entry colsep="1">builder</entry>
                         <entry colsep="1">None. Password is set during initial
                             configuration.</entry>
-                        <entry>Account for setting up and configuring
+                        <entry colsep="1">Account for setting up and configuring
                             the Elasticsearch cluster.
                             <p>You can change the password by using
                             the Linux <b>passwd</b> command.</p></entry>
@@ -67,7 +70,7 @@
                     <row rowsep="1">
                         <entry colsep="1">reportuser</entry>
                         <entry colsep="1">St0red1q</entry>
-                        <entry>Account for accessing the report
+                        <entry colsep="1">Account for accessing the report
                             database on the AppStack.
                             <p>Change the password by running the
                             <b>change_reportuser_password</b> script as
@@ -76,7 +79,7 @@
                     <row rowsep="1">
                         <entry colsep="1">siqadmin</entry>
                         <entry colsep="1">Passw0rd!</entry>
-                        <entry>Administrative account for managing the
+                        <entry colsep="1">Administrative account for managing the
                             AppStack server. For more information,
                             see the administration guide.
                             <p>With new installations, you are
@@ -86,10 +89,10 @@
                             password by using the Linux <b>passwd</b>
                             command.</p></entry>
                     </row>
-                    <row>
+                    <row rowsep="1">
                         <entry colsep="1">superadmin</entry>
                         <entry colsep="1">admin</entry>
-                        <entry>Administrative account for accessing
+                        <entry colsep="1">Administrative account for accessing
                             IBM StoredIQ Administrator and IBM
                             StoredIQ Data Server. Use this account
                             for the initial setup of IBM StoredIQ and

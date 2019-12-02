@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="open_ports_for_desktop_client_access_to_the_data_server">
-    <title>Open ports for desktop client access to the data server</title>
+    <title><b>Open ports for desktop client access to the data server</b></title>
     <shortdesc></shortdesc>
     <prolog>
         <author>Jillian Brennan</author>
@@ -12,8 +12,11 @@
         </context>
         <steps>
             <step>
-                <cmd>Log in to the data server as root and run this command:</cmd>
-                   <itemgroup>python /usr/local/storediq/bin/util/port_handler.pyc -e desktop</itemgroup>
+                <cmd>Log in to the data server as root and run this command: </cmd>
+                <info>
+                    <codeblock><![CDATA[python /usr/local/storediq/bin/util/port_handler.pyc -e desktop]]></codeblock>
+                </info>   
+                   
             </step>
             <step>
                 <cmd>Run this command: iptables -L INPUT
@@ -33,7 +36,9 @@
             </step>
             <step>
                 <cmd>Run the following command:</cmd>
-                    <info>python /usr/local/storediq/bin/util/port_handler.pyc -e desktop</info>
+                    <info>
+                        <codeblock><![CDATA[python /usr/local/storediq/bin/util/port_handler.pyc -e desktop]]></codeblock>
+                    </info>
                 <stepresult>
                     <note type="tip">These steps are required only on an IBM StoredIQ OVA deployed system. The correct ports are open
                         on an upgraded system</note>

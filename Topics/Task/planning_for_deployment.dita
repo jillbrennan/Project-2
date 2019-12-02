@@ -15,7 +15,7 @@
                 and data requests that are to be fulfilled by IBM StoredIQ, also check the system requirements for
                 StoredIQ for Legal at: <xref conkeyref="URL/ProdCompLegal2.0.3"></xref></p>
         </context>
-        <section>
+        <section rev="2.0">
             <title>Generate customized reports with the SPCR tool</title>
             <p>Go to the page at <xref conkeyref="URL/ProdCompReports_Index"></xref>to create a high-level report for supported
                 operating systems, related software, hypervisors, and supported translations for any product. You can
@@ -25,21 +25,21 @@
             <p>The following report types are the most commonly generated reports from software product compatibility
                 reports:</p>
         </section>
-        <section>
+        <section rev="1.0">
             <title>Detailed system requirements</title>
             <p>When you select your product version for the detailed system requirements report, you can set a
                 report filter for <b>Operating system platforms, Product components,</b> and <b>Capabilities,</b> including
                 prerequisites and support software. After you view the report, you can save it as a URL to generate
                 anytime or download it as a PDF.</p>
         </section>
-        <section>
+        <section rev="1.1">
             <title>Hardware requirements</title>
             <p>When you select your product version for the hardware requirements report, you can set a report filter
                 by the <b>Operating system families</b> option. Set the operating system filter by selecting some or all of
                 the operating systems that are supported by your product. After you view the report, you can save it
                 as a URL to generate anytime or download it as a PDF.</p>
         </section>
-        <section>
+        <section rev="1.1">
             <title>End of service</title>
             <p>The end of service report shows the service window of the products that you specify over an eightyear
                 span. For example, you can find out when your product is scheduled to go out of service.</p>

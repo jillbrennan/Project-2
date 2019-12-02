@@ -10,21 +10,39 @@
         </copyright>
     </prolog>
     <conbody>
-        <section>
+        <section audience="Administrator">
             <title>IBM StoredIQ Data Server</title>
             <p>IBM StoredIQ Data Server user interface provides access to data server functionality. It allows
                 administrators to view the dashboard and see the status of the jobs and system details. Administrators
                 can manage information about servers and conduct various configurations on the system and application
                 settings.</p>
             <image conkeyref="images/dataserver"></image>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <!-- I inserted the blank <p> elements above, to force the next section to start on the next page-->
         </section>
-        
+  
         <section>
             <title>IBM StoredIQ Administrator</title>
             <p>IBM StoredIQ Administrator helps you manage global assets common to the distributed infrastructure
-                behind IBM StoredIQ applications.
+                behind IBM StoredIQ applications.</p>
                 <image conkeyref="images/administrator"></image>
-            </p>
+            
             <p>IBM StoredIQ Administrator provides at-a-glance understanding of the different issues that can crop up
                 in the IBM StoredIQ environment. These views are unique to the IBM StoredIQ Administrator application
                 as they provide an overview of how the system is running. They allow access to various pieces of
@@ -54,7 +72,7 @@
                         managed within IBM StoredIQ Administrator. Although infosets are a core component of IBM StoredIQ
                         Data Workbench, system infosets are created as a shortcut for users in IBM StoredIQ Administrator.
                     </li>
-                    <li><b>Managing users:</b> The user management area allows administrators to create users and manage users'
+                    <li audience="Users Administrator"><b>Managing users:</b> The user management area allows administrators to create users and manage users'
                         access to the various IBM StoredIQ applications.
                     </li>
                     <li><b>Configuring and managing actions:</b> An action is any process that is taken upon the data that is
@@ -72,7 +90,7 @@
                         create custom reports, including Query Analysis Reports for e-discovery purposes, and automatically
                         email report notifications to administrators and other interested parties.
                     </li>
-                    <li><b>Auto-classification:</b> <ph id="autoClass">Automated document categorization, what IBM StoredIQ refers to as autoclassification
+                    <li audience="expert"><b>Auto-classification:</b> <ph id="autoClass">Automated document categorization, what IBM StoredIQ refers to as autoclassification
                         models, integrates the IBM® Content Classification's classification model into the IBM
                         StoredIQ infoset-generation process. Data Experts can use IBM Content Classification to train a
                         classification model, which is then registered with IBM StoredIQ Administrator. The registered
@@ -143,7 +161,7 @@
                       <li>You want to find all image files that are created in 2007. Not only can IBM StoredIQ Data Workbench
                           find all image files that were created in 2007. It also shows how much space they occupy on your
                           network.</li>
-                      <li>A user needs to understand how data about Windows is being retained. Using IBM StoredIQ Data
+                      <li audience="Users">A user needs to understand how data about Windows is being retained. Using IBM StoredIQ Data
                           Workbench, you can provide that user with a visual overview of the number of objects that are retained
                           and a breakdown of files per data source. Additionally, you can apply overlays to show the user if those
                           files contain forbidden information such as credit-card numbers or Social Security numbers.</li>
@@ -172,12 +190,12 @@
                       
         </section>
         
-        <section>
+        <section audience="Users">
             <title>IBM StoredIQ Policy Manager</title>
             <p>IBM StoredIQ Policy Manager allows users to run mature policies and processes at scale across a wider
                 range of data.
-            <image conkeyref="images/policymanager"></image>
             </p>
+            <image conkeyref="images/policymanager"></image>
             <p>The users can define and run systemwide policies, focusing on the execution of the process rather than
                 understanding or reviewing affected data objects. Additionally, with reports of IBM StoredIQ Policy
                 Manager, you can record what actions were conducted, when they were conducted, and what data was

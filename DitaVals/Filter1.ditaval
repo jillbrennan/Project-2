@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+    <!-- Below displays information for an Expert audience -->
+    <prop action="flag" att="audience" val="expert" color="red" style="italics"></prop>
+    <prop action="exclude" att="audience" val="novice"></prop>
+    <prop action="include" att="product" val="Other products"></prop>
+    
+    <!-- Below displays information with revision attributes of 2.0 or 1.1 in a different colour, background colour or style -->
+    <revprop action="flag" val="2.0" backcolor="green" style="bold"></revprop>
+    <revprop action="flag" val="1.1" color="orange"></revprop>
+    
+    <!-- Below shows all information relevant to Linux users -->
+    <prop action="exclude" att="platform" val="windows"></prop>
+    <prop action="include" att="platform" val="linux"></prop>
+    
+    <!-- Below shows flagging scheme for content relevant to administrator and users -->
+    <prop action="flag" att="audience" val="Administrator" color="pink"></prop>
+    <prop action="flag" att="audience" val="Users" backcolor="beige" style="bold"></prop>
+    
+</val>

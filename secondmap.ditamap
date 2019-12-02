@@ -2,6 +2,12 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>SecondMap</title>
+    <topicmeta>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>IBM</copyrholder>
+        </copyright>
+    </topicmeta>
     <keydef keys="URL" href="Common/urls.dita"></keydef>
     <keydef keys="images" href="Resources/Images/images.dita"></keydef>
     <keydef keys="data" href="Common/data_to_use.dita"></keydef>   

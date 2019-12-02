@@ -43,6 +43,7 @@
                 can set up the firewall accordingly. For more information, see “Restricting access to port 9200 on
                 Elasticsearch nodes” on page 52.</p>
             <p>If FIPS is not enabled, the following cipher suites and encryption algorithm are used for data at rest:
+                
                 <lines>LS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256</lines>
                 <lines>TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</lines>  
             </p>

@@ -2,5 +2,12 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Index Map</title>
+    <topicmeta>
+        <author>Jillian Brennan</author>
+        <copyright>
+            <copyryear year="2019"/>
+            <copyrholder>IBM</copyrholder>
+        </copyright>
+    </topicmeta>
     <keydef keys="indexkey" href="Topics/Concept/index_terms.dita"></keydef>
 </map>

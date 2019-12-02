@@ -17,6 +17,7 @@
                 password authentication. To add a layer of security, you can establish key-based authentication for
                 passwordless SSH logins to any of the IBM StoredIQ nodes in your environment as described in
                 “Configuring SSH key-based authentication” on page 45.  
+                <!-- I did not create a link to this content on page 45, as it is outside what we were asked to re-author -->
             </p>   
         </section>
         
@@ -24,28 +25,30 @@
             <title>Default open ports on the AppStack</title>
             <table>
                 <tgroup cols="2">
+                    <colspec colwidth="100*"/>
+                    <colspec colwidth="100*"/>
                     <thead>
-                        <row>
-                            <entry colsep="1">Port number</entry>
-                            <entry>Protocol</entry>
+                        <row rowsep="1">
+                            <entry colsep="1" align="left">Port number</entry>
+                            <entry colsep="1" align="left">Protocol</entry>
                         </row>
                     </thead>
                     <tbody>
                         <row rowsep="1">
                             <entry colsep="1">22</entry>
-                            <entry>
+                            <entry colsep="1">
                                 <text conkeyref="data/proto1"></text>
                             </entry>
                         </row>
                         <row rowsep="1">
                             <entry colsep="1">80</entry>
-                            <entry>
+                            <entry colsep="1">
                                 <text conkeyref="data/proto1"></text>
                             </entry>
                         </row>
-                        <row>
+                        <row rowsep="1">
                             <entry colsep="1">443</entry>
-                            <entry>
+                            <entry colsep="1">
                                 <text conkeyref="data/proto1"></text>
                             </entry>
                         </row>
@@ -60,14 +63,15 @@
             <title>Default open ports on the IBM StoredIQ data server</title>
             <table>
                 <tgroup cols="3">
-                    <colspec colname="Col1"/>
-                    <colspec colname="Col2"/>
-                    <colspec colname="Col3"/>
+                    <colspec colname="Col1" colwidth="100*"/>
+                    <colspec colname="Col2" colwidth="100*"/>
+                    <colspec colname="Col3" colwidth="100*"/>
+                   
                     <thead>
-                        <row>
-                            <entry colsep="1">Port number</entry>
-                            <entry colsep="1">Protocol</entry>
-                            <entry>Service</entry>
+                        <row rowsep="1">
+                            <entry colsep="1" align="left">Port number</entry>
+                            <entry colsep="1" align="left">Protocol</entry>
+                            <entry colsep="1" align="left">Service</entry>
                         </row>
                     </thead>
                     <tbody>
@@ -76,33 +80,33 @@
                             <entry colsep="1">
                                 <text conkeyref="data/proto1"></text>
                             </entry>
-                            <entry>PROD-ssh</entry>
+                            <entry colsep="1">PROD-ssh</entry>
                         </row>
                         <row rowsep="1">
                             <entry colsep="1">80</entry>
                             <entry colsep="1">
                                 <text conkeyref="data/proto1"></text>
                             </entry>
-                            <entry>PROD-web</entry>
+                            <entry colsep="1">PROD-web</entry>
                         </row>
                         <row rowsep="1">
                             <entry colsep="1">443</entry>
                             <entry colsep="1"> 
                                 <text conkeyref="data/proto1"></text>
                             </entry>
-                            <entry>PROD-https (UI and Web Services APIs)</entry>
+                            <entry colsep="1">PROD-https (UI and Web Services APIs)</entry>
                         </row>
                         <row rowsep="1">
                             <entry colsep="1">11103</entry>
                             <entry colsep="1" morerows="1">
                                 <text conkeyref="data/proto1" ></text>
                             </entry>
-                            <entry morerows="1">PROD-transport (IBM StoredIQ
+                            <entry morerows="1" colsep="1">PROD-transport (IBM StoredIQ
                                 transport services;
                                 communication between the
                                 gateway and the data server)</entry>
                         </row>
-                        <row>
+                        <row rowsep="1">
                             <entry colsep="1">11104</entry>
                         </row>
                     </tbody>
@@ -154,11 +158,14 @@
             <title>Default open ports on the nodes in the Elasticsearch cluster</title>
             <table>
                 <tgroup cols="3">
+                    <colspec colwidth="100*" align="left"/>
+                    <colspec colwidth="100*" align="left"/>
+                    <colspec colwidth="100*" align="left"/>
                     <thead>
                         <row rowsep="1">
                             <entry colsep="1">Port Number</entry>
                             <entry colsep="1">Protocol</entry>
-                            <entry>Service</entry>
+                            <entry colsep="1">Service</entry>
                         </row>
                     </thead>
                     <tbody>
@@ -167,35 +174,35 @@
                             <entry colsep="1">
                                 <text conkeyref="data/proto1"></text>
                             </entry>
-                            <entry>ftp</entry>
+                            <entry colsep="1">ftp</entry>
                         </row>
                         <row rowsep="1">
                             <entry colsep="1">22</entry>
                             <entry colsep="1">
                                 <text conkeyref="data/proto1"></text>
                             </entry>
-                            <entry>sshd</entry>
+                            <entry colsep="1">sshd</entry>
                         </row>
                         <row rowsep="1">
                             <entry colsep="1">80</entry>
                             <entry colsep="1">
                                 <text conkeyref="data/proto1"></text>
                             </entry>
-                            <entry></entry>
+                            <entry colsep="1"></entry>
                         </row>
                         <row rowsep="1">
                             <entry colsep="1">443</entry>
                             <entry colsep="1">
                                 <text conkeyref="data/proto1"></text>
                             </entry>
-                            <entry></entry>
+                            <entry colsep="1"></entry>
                         </row>
                         <row rowsep="1">
                             <entry colsep="1">8888</entry>
                             <entry colsep="1">
                                 <text conkeyref="data/proto1"></text>
                             </entry>
-                            <entry>SimpleHTTPServer (used for
+                            <entry colsep="1">SimpleHTTPServer (used for
                                 copying the siq-elasticsearch.
                                 yml
                                 configuration file from the
@@ -205,7 +212,7 @@
                         <row rowsep="1">
                             <entry colsep="1">9200</entry>
                             <entry colsep="1">tcp6</entry>
-                            <entry>docker-proxy (listening for REST
+                            <entry colsep="1">docker-proxy (listening for REST
                                 requests)
                                 You can restrict access to this
                                 port by either enabling Search
@@ -218,10 +225,10 @@
                                 on Elasticsearch nodes” on page
                                 52.</entry>
                         </row>
-                        <row>
+                        <row rowsep="1">
                             <entry colsep="1">9300</entry>
                             <entry colsep="1">tcp6</entry>
-                            <entry>docker-proxy (internode communication)</entry>
+                            <entry colsep="1">docker-proxy (internode communication)</entry>
                         </row>
                     </tbody>
                 </tgroup>
@@ -233,11 +240,14 @@
             <title>Default open ports on the IBM StoredIQ gateway</title>
             <table>
                 <tgroup cols="3">
+                    <colspec colwidth="100*" align="left"/>
+                    <colspec colwidth="100*" align="left"/>
+                    <colspec colwidth="100*" align="left"/>
                     <thead>
                         <row rowsep="1">
                             <entry colsep="1">Port number</entry>
                             <entry colsep="1">Protocol</entry>
-                            <entry>Service</entry>
+                            <entry colsep="1">Service</entry>
                         </row>
                     </thead>
                     <tbody>
@@ -246,21 +256,21 @@
                             <entry colsep="1">
                                 <text conkeyref="data/proto1"></text>
                             </entry>
-                            <entry>PROD-ssh</entry>
+                            <entry colsep="1">PROD-ssh</entry>
                         </row>
                         <row rowsep="1">
                             <entry colsep="1">80</entry>
                             <entry colsep="1">
                                 <text conkeyref="data/proto1"></text>
                             </entry>
-                            <entry>PROD-web</entry>
+                            <entry colsep="1">PROD-web</entry>
                         </row>
                         <row rowsep="1">
                             <entry colsep="1">443</entry>
                             <entry colsep="1">
                                 <text conkeyref="data/proto1"></text>
                             </entry>
-                            <entry>PROD-https (UI and Web
+                            <entry colsep="1">PROD-https (UI and Web
                                 Services APIs)</entry>
                         </row>
                         <row rowsep="1">
@@ -268,14 +278,14 @@
                             <entry colsep="1">
                                 <text conkeyref="data/proto1"></text>
                             </entry>
-                            <entry>PROD-postgres</entry>
+                            <entry colsep="1">PROD-postgres</entry>
                         </row>
                         <row rowsep="1">
                             <entry colsep="1">5434</entry>
                             <entry morerows="5" colsep="1" >
                                 <text conkeyref="data/proto1"></text>
                             </entry>
-                            <entry morerows="5">PROD-transport (IBM StoredIQ
+                            <entry morerows="5" colsep="1">PROD-transport (IBM StoredIQ
                                 transport services;
                                 communication between the
                                 gateway and the data server)</entry>

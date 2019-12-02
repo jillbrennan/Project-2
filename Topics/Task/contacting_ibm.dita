@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="contacting_ibm">
-    <title>Contacting IBM</title>
-    <shortdesc></shortdesc>
+    <title><b>Contacting IBM</b></title>
     <prolog>
         <author>Jillian Brennan</author>
         <copyright>
@@ -20,6 +19,7 @@
             <p>    </p>
             <p>    </p>
             <p>    </p>
+            <!-- I added the above <p> elememts, to force the inclusion of a blank page, the same as the original document.  -->
         </context>
         
        
